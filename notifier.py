@@ -71,7 +71,7 @@ def main():
         return
 
     # Mensaje de cabecera
-    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\nAquí tienes las recomendaciones de hoy:"
+    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\nAquí tienes las recomendaciones de la semana:"
     send_telegram_message(token, chat_id, header)
 
     # Enviar cada semilla con su foto
