@@ -44,10 +44,20 @@
     "family": "Brassicaceae",
     "harvest_days": 40,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "stock": 2000,
     "observations": "Gran cantidad disponible; ideal para siembras densas.",
-    "image_path": "images/rúcula.jpg"
+    "image_path": "images/rúcula.png"
   },
   {
     "name": "Espinaca",
