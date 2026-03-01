@@ -20,7 +20,7 @@
     "observations": "Hojas tiernas y suaves, ideal para ensaladas clásicas."
   },
   {
-    "name": "Lechuga Morada 4 Estaciones",
+    "name": "Lechuga Morada (4 Estaciones)",
     "family": "Asteraceae",
     "image_url": "https://images.unsplash.com/photo-1506070508064-9d2a1ef050f2?q=80&w=400",
     "harvest_days": 70,
@@ -150,7 +150,7 @@
     "observations": "Se puede usar el bulbo y la hoja."
   },
   {
-    "name": "Cebolla Morada / Valenciana",
+    "name": "Cebollas (Morada / Valenciana)",
     "family": "Amaryllidaceae",
     "image_url": "https://images.unsplash.com/photo-1508747703725-719777637510?q=80&w=400",
     "harvest_days": 180,
@@ -190,7 +190,7 @@
     "observations": "Plantar en bloques para asegurar una buena polinización."
   },
   {
-    "name": "Melón / Sandía Crimson Sweet",
+    "name": "Melón / Sandía (Crimson Sweet)",
     "family": "Cucurbitaceae",
     "image_url": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?q=80&w=400",
     "harvest_days": 100,
@@ -250,7 +250,7 @@
     "observations": "Las hojas jóvenes también son comestibles en ensalada."
   },
   {
-    "name": "Repollo Blanco / Colorado",
+    "name": "Repollos (Blanco / Colorado)",
     "family": "Brassicaceae",
     "image_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?q=80&w=400",
     "harvest_days": 110,
@@ -260,7 +260,7 @@
     "observations": "Necesita un suelo firme y buen aporte de nitrógeno."
   },
   {
-    "name": "Tomate Perita / Platense",
+    "name": "Tomates (Perita / Platense)",
     "family": "Solanaceae",
     "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=400",
     "harvest_days": 100,
@@ -280,7 +280,7 @@
     "observations": "Mantener la humedad constante durante la germinación."
   },
   {
-    "name": "Zapallo Anco / Plomo / Zucchini",
+    "name": "Zapallos (Anco / Plomo / Zucchini / Mix)",
     "family": "Cucurbitaceae",
     "image_url": "https://images.unsplash.com/photo-1506501139174-099022df5260?q=80&w=400",
     "harvest_days": 100,
@@ -290,7 +290,7 @@
     "observations": "Incluye mix de zapallos (30 semillas extra)."
   },
   {
-    "name": "Albahaca Genovesa / Morada",
+    "name": "Albahacas (Genovesa / Morada)",
     "family": "Lamiaceae",
     "image_url": "https://images.unsplash.com/photo-1618375531912-867984d08892?q=80&w=400",
     "harvest_days": 60,
@@ -300,7 +300,7 @@
     "observations": "Planta aromática indispensable en verano."
   },
   {
-    "name": "Orégano / Tomillo / Mejorana",
+    "name": "Aromáticas (Orégano / Tomillo / Mejorana)",
     "family": "Lamiaceae",
     "image_url": "https://images.unsplash.com/photo-1571151610411-923f76906a64?q=80&w=400",
     "harvest_days": 180,
@@ -310,7 +310,7 @@
     "observations": "Plantas perennes muy resistentes al sol."
   },
   {
-    "name": "Cilantro / Eneldo / Anis Verde",
+    "name": "Aromáticas (Cilantro / Eneldo / Anís Verde)",
     "family": "Apiaceae",
     "image_url": "https://images.unsplash.com/photo-1588877329975-b45415ef6ba2?q=80&w=400",
     "harvest_days": 50,
@@ -320,7 +320,7 @@
     "observations": "Sus flores atraen fauna benéfica a la huerta."
   },
   {
-    "name": "Perejil Liso / Rizado",
+    "name": "Aromáticas (Perejil Liso / Rizado)",
     "family": "Apiaceae",
     "image_url": "https://images.unsplash.com/photo-1512411512530-994358a98f12?q=80&w=400",
     "harvest_days": 70,
@@ -330,7 +330,7 @@
     "observations": "Tarda bastante en germinar, paciencia."
   },
   {
-    "name": "Melisa / Manzanilla / Fenogreco",
+    "name": "Medicinales (Melisa / Manzanilla / Fenogreco)",
     "family": "Medicinales",
     "image_url": "https://images.unsplash.com/photo-1596715364119-905e32301548?q=80&w=400",
     "harvest_days": 90,
@@ -340,7 +340,7 @@
     "observations": "Uso medicinal y aromático variado."
   },
   {
-    "name": "Ciboulette / Mostaza Blanca",
+    "name": "Especiales (Ciboulette / Mostaza Blanca)",
     "family": "Aromáticas Especiales",
     "image_url": "https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?q=80&w=400",
     "harvest_days": 80,
@@ -350,7 +350,7 @@
     "observations": "Sabor intenso para tus platos."
   },
   {
-    "name": "Tomates Cherry (Mix 4 colores)",
+    "name": "Tomates Cherry (Negro / Rojo / Amarillo / Naranja / Reliquia)",
     "family": "Solanaceae",
     "image_url": "https://images.unsplash.com/photo-1546027658-e536884149fd?q=80&w=400",
     "harvest_days": 90,
@@ -360,7 +360,7 @@
     "observations": "Incluye Negro, Rojo, Amarillo, Naranja y Mix Reliquia (50)."
   },
   {
-    "name": "Flores (Calendula / Copete / Alheli)",
+    "name": "Flores (Caléndula / Copete / Alhelí)",
     "family": "Flores Benéficas",
     "image_url": "https://images.unsplash.com/photo-1599307221415-38ba2358897d?q=80&w=400",
     "harvest_days": 60,
@@ -370,7 +370,7 @@
     "observations": "Fundamentales para mantener la huerta sana."
   },
   {
-    "name": "Frutilla / Arándano / Frambuesa / Uva",
+    "name": "Frutos Rojos / Vid (Frutilla / Arándano / Frambuesa / Uva)",
     "family": "Frutos Rojos / Vid",
     "image_url": "https://images.unsplash.com/photo-1464960320293-d7768e6fbc69?q=80&w=400",
     "harvest_days": 365,
@@ -380,7 +380,7 @@
     "observations": "Plantas perennes (stock de seguridad 50 c/u)."
   },
   {
-    "name": "Ajo / Arvejilla",
+    "name": "Varios (Ajo / Arvejilla)",
     "family": "Varios",
     "image_url": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=400",
     "harvest_days": 210,
