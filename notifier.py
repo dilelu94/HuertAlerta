@@ -76,8 +76,11 @@ def main():
 
     # Enviar cada semilla con su foto
     for s in plantable_seeds:
+        # Evitar redundancia si la familia ya está en el nombre (ej: Medicinales)
+        family_display = f" ({s['family']})" if s['family'].lower() not in s['name'].lower() else ""
+        
         caption = (
-            f"🌿 *{s['name']}* ({s['family']})\n"
+            f"🌿 *{s['name']}*{family_display}\n"
             f"🕒 *Cosecha:* ~{s['harvest_days']} días\n"
             f"📦 *Stock:* {s['stock']} unidades\n"
             f"⚠️ *Desplante:* {s['removal_type']}\n"
