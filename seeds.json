@@ -1,113 +1,223 @@
 [
   {
-    "name": "Lechuga (Todas)",
+    "name": "Lechugas (Todas)",
     "family": "Asteraceae",
     "image_url": "https://images.unsplash.com/photo-1622206141540-58013137a456?q=80&w=400",
     "harvest_days": 60,
-    "removal_type": "Continuo (Corte de hojas) o al florecer",
+    "removal_type": "Continuo o al florecer",
     "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "stock": 10,
-    "observations": "Se puede sembrar todo el año, pero en verano requiere media sombra para no amargar."
+    "observations": "Se puede sembrar todo el año; en verano usar media sombra."
   },
   {
-    "name": "Rúcula",
+    "name": "Rúcula (Común/Selvática)",
     "family": "Brassicaceae",
     "image_url": "https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?q=80&w=400",
     "harvest_days": 40,
     "removal_type": "Continuo o al florecer",
     "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
     "stock": 10,
-    "observations": "Crece muy rápido; conviene hacer siembras escalonadas cada 15 días."
+    "observations": "La selvática es más picante y resistente al calor que la común."
   },
   {
-    "name": "Espinaca",
+    "name": "Espinaca (Común/Frutilla)",
     "family": "Amaranthaceae",
     "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?q=80&w=400",
     "harvest_days": 50,
     "removal_type": "Continuo o al florecer",
     "planting_months": [3, 4, 5, 6, 7, 8],
     "stock": 10,
-    "observations": "Prefiere el frío; con el calor de Buenos Aires tiende a florecer prematuramente."
+    "observations": "Prefiere el frío; en Buenos Aires sembrar a partir de marzo."
   },
   {
-    "name": "Tomate (Todos)",
-    "family": "Solanaceae",
-    "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=400",
-    "harvest_days": 100,
-    "removal_type": "Desplante por cambio de temporada (primeras heladas)",
-    "planting_months": [8, 9, 10, 11, 12],
-    "stock": 10,
-    "observations": "Requiere tutores y mucho sol; el Platense es ideal para la zona norte."
-  },
-  {
-    "name": "Morrón / Ají",
-    "family": "Solanaceae",
-    "image_url": "https://images.unsplash.com/photo-1566114107554-82352ee8c440?q=80&w=400",
-    "harvest_days": 120,
-    "removal_type": "Desplante por cambio de temporada",
-    "planting_months": [8, 9, 10, 11],
-    "stock": 10,
-    "observations": "Necesita calor constante; en BA conviene iniciar almácigos protegidos en agosto."
-  },
-  {
-    "name": "Albahaca",
+    "name": "Tomillo / Aromáticas (Mix)",
     "family": "Lamiaceae",
-    "image_url": "https://images.unsplash.com/photo-1618375531912-867984d08892?q=80&w=400",
-    "harvest_days": 60,
-    "removal_type": "Al florecer o fin de verano",
-    "planting_months": [9, 10, 11, 12],
+    "image_url": "https://images.unsplash.com/photo-1571151610411-923f76906a64?q=80&w=400",
+    "harvest_days": 180,
+    "removal_type": "Continuo (Perenne)",
+    "planting_months": [3, 4, 5, 8, 9, 10],
     "stock": 10,
-    "observations": "Excelente compañera del tomate; repele plagas de forma natural."
+    "observations": "Planta perenne que requiere poco riego y mucho sol."
   },
   {
-    "name": "Ajo",
-    "family": "Amaryllidaceae",
-    "image_url": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=400",
-    "harvest_days": 210,
-    "removal_type": "Cosecha única (desplante total)",
-    "planting_months": [3, 4, 5],
-    "stock": 10,
-    "observations": "Se planta el diente directamente; requiere suelo muy bien drenado."
-  },
-  {
-    "name": "Arvejas",
-    "family": "Fabaceae",
-    "image_url": "https://images.unsplash.com/photo-1590234185794-52a97576f304?q=80&w=400",
-    "harvest_days": 120,
-    "removal_type": "Cosecha única tras maduración de vainas",
-    "planting_months": [4, 5, 6, 7, 8],
-    "stock": 10,
-    "observations": "Fijan nitrógeno en el suelo; ideal para rotar donde hubo tomates."
-  },
-  {
-    "name": "Cilantro",
+    "name": "Anís / Eneldo / Cilantro",
     "family": "Apiaceae",
     "image_url": "https://images.unsplash.com/photo-1588877329975-b45415ef6ba2?q=80&w=400",
     "harvest_days": 45,
     "removal_type": "Continuo o al florecer",
     "planting_months": [3, 4, 5, 6, 7, 8, 9],
     "stock": 10,
-    "observations": "Atrae polinizadores si se deja florecer al final de su ciclo."
+    "observations": "Atraen polinizadores y son excelentes para control biológico."
   },
   {
-    "name": "Acelga / Remolacha",
-    "family": "Amaranthaceae",
-    "image_url": "https://images.unsplash.com/photo-1594313054113-902c525f0580?q=80&w=400",
-    "harvest_days": 70,
-    "removal_type": "Continuo (Acelga) / Única (Remolacha)",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "stock": 0,
-    "observations": "Muy resistentes; la acelga puede durar más de un año produciendo."
+    "name": "Ajo",
+    "family": "Amaryllidaceae",
+    "image_url": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=400",
+    "harvest_days": 210,
+    "removal_type": "Desplante por cosecha única",
+    "planting_months": [3, 4, 5],
+    "stock": 10,
+    "observations": "Plantar los dientes más grandes para obtener cabezas mejores."
+  },
+  {
+    "name": "Arveja / Haba",
+    "family": "Fabaceae",
+    "image_url": "https://images.unsplash.com/photo-1590234185794-52a97576f304?q=80&w=400",
+    "harvest_days": 120,
+    "removal_type": "Desplante por cosecha",
+    "planting_months": [4, 5, 6, 7, 8],
+    "stock": 10,
+    "observations": "Mejoran el suelo fijando nitrógeno durante el invierno."
   },
   {
     "name": "Frutilla",
     "family": "Rosaceae",
     "image_url": "https://images.unsplash.com/photo-1464960320293-d7768e6fbc69?q=80&w=400",
     "harvest_days": 150,
-    "removal_type": "Continuo por varios años (perenne)",
+    "removal_type": "Continuo (Perenne)",
     "planting_months": [4, 5, 6],
     "stock": 10,
-    "observations": "En la zona norte conviene acolchar el suelo para proteger los frutos de la humedad."
+    "observations": "Renovar las plantas cada 3 años para mantener la producción."
+  },
+  {
+    "name": "Arándano / Frambuesa",
+    "family": "Ericaceae/Rosaceae",
+    "image_url": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?q=80&w=400",
+    "harvest_days": 365,
+    "removal_type": "Continuo (Perenne)",
+    "planting_months": [5, 6, 7],
+    "stock": 10,
+    "observations": "Requieren suelos ácidos y podas invernales específicas."
+  },
+  {
+    "name": "Uva",
+    "family": "Vitaceae",
+    "image_url": "https://images.unsplash.com/photo-1533418264835-98fe1e49c115?q=80&w=400",
+    "harvest_days": 365,
+    "removal_type": "Continuo (Perenne)",
+    "planting_months": [6, 7, 8],
+    "stock": 10,
+    "observations": "Necesita una estructura firme (pérgola o espaldera) y sol pleno."
+  },
+  {
+    "name": "Tomates (Todos)",
+    "family": "Solanaceae",
+    "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=400",
+    "harvest_days": 100,
+    "removal_type": "Desplante por cambio de temporada",
+    "planting_months": [8, 9, 10, 11],
+    "stock": 10,
+    "observations": "En Buenos Aires, proteger de las heladas tardías de septiembre."
+  },
+  {
+    "name": "Morrón / Ají / Berenjena",
+    "family": "Solanaceae",
+    "image_url": "https://images.unsplash.com/photo-1566114107554-82352ee8c440?q=80&w=400",
+    "harvest_days": 120,
+    "removal_type": "Desplante por cambio de temporada",
+    "planting_months": [8, 9, 10, 11],
+    "stock": 10,
+    "observations": "Requieren mucho calor; ideal empezar en almácigo cálido."
+  },
+  {
+    "name": "Albahaca",
+    "family": "Lamiaceae",
+    "image_url": "https://images.unsplash.com/photo-1618375531912-867984d08892?q=80&w=400",
+    "harvest_days": 60,
+    "removal_type": "Al florecer o heladas",
+    "planting_months": [9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Pizcar las flores para que la planta siga produciendo hojas."
+  },
+  {
+    "name": "Acelga / Remolacha",
+    "family": "Amaranthaceae",
+    "image_url": "https://images.unsplash.com/photo-1594313054113-902c525f0580?q=80&w=400",
+    "harvest_days": 70,
+    "removal_type": "Continuo (Acelga) / Única (Remo.)",
+    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Soportan bien tanto el frío como el calor moderado."
+  },
+  {
+    "name": "Achicoria / Escarola / Radicheta",
+    "family": "Asteraceae",
+    "image_url": "https://images.unsplash.com/photo-1629114255010-096d2963359d?q=80&w=400",
+    "harvest_days": 65,
+    "removal_type": "Continuo o al florecer",
+    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "stock": 10,
+    "observations": "La radicheta es muy rústica y rebrota fácilmente tras el corte."
+  },
+  {
+    "name": "Apio / Puerro",
+    "family": "Apiaceae/Amaryllidaceae",
+    "image_url": "https://images.unsplash.com/photo-1597341022833-281b16e00ca3?q=80&w=400",
+    "harvest_days": 130,
+    "removal_type": "Desplante por cosecha",
+    "planting_months": [2, 3, 4, 5, 6, 8, 9, 10],
+    "stock": 10,
+    "observations": "Requieren mucha humedad constante y aporcado para blanquear tallos."
+  },
+  {
+    "name": "Brócoli / Coliflor / Repollo",
+    "family": "Brassicaceae",
+    "image_url": "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?q=80&w=400",
+    "harvest_days": 100,
+    "removal_type": "Desplante por cosecha",
+    "planting_months": [2, 3, 4, 5],
+    "stock": 10,
+    "observations": "Controlar orugas de la col durante el otoño/invierno."
+  },
+  {
+    "name": "Cebollas (Todas)",
+    "family": "Amaryllidaceae",
+    "image_url": "https://images.unsplash.com/photo-1508747703725-719777637510?q=80&w=400",
+    "harvest_days": 180,
+    "removal_type": "Desplante por cosecha única",
+    "planting_months": [2, 3, 4, 5],
+    "stock": 10,
+    "observations": "El verdeo se puede cosechar antes, el bulbo requiere secado post-cosecha."
+  },
+  {
+    "name": "Chaucha / Maíz",
+    "family": "Fabaceae/Poaceae",
+    "image_url": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=400",
+    "harvest_days": 80,
+    "removal_type": "Desplante por cosecha",
+    "planting_months": [10, 11, 12, 1],
+    "stock": 10,
+    "observations": "El maíz sirve de tutor natural para las chauchas trepadoras."
+  },
+  {
+    "name": "Hinojo",
+    "family": "Apiaceae",
+    "image_url": "https://images.unsplash.com/photo-1563823251941-b9989d1e138a?q=80&w=400",
+    "harvest_days": 110,
+    "removal_type": "Desplante por cosecha",
+    "planting_months": [2, 3, 4, 8, 9],
+    "stock": 10,
+    "observations": "Atención: el hinojo no es buen compañero de la mayoría de las hortalizas."
+  },
+  {
+    "name": "Melón / Sandía / Pepino",
+    "family": "Cucurbitaceae",
+    "image_url": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?q=80&w=400",
+    "harvest_days": 90,
+    "removal_type": "Desplante por cambio de temporada",
+    "planting_months": [10, 11, 12],
+    "stock": 10,
+    "observations": "Rastreras que ocupan mucho espacio; necesitan polinizadores (abejas)."
+  },
+  {
+    "name": "Rabanito / Zanahoria",
+    "family": "Brassicaceae/Apiaceae",
+    "image_url": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=400",
+    "harvest_days": 30,
+    "removal_type": "Desplante por cosecha única",
+    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "stock": 10,
+    "observations": "El rabanito es la cosecha más rápida de la huerta (30 días)."
   },
   {
     "name": "Zapallitos / Zapallos",
@@ -116,7 +226,27 @@
     "harvest_days": 90,
     "removal_type": "Desplante por cambio de temporada",
     "planting_months": [10, 11, 12, 1],
-    "stock": 0,
-    "observations": "Requieren mucho espacio y sol; cuidado con el oidio en otoños húmedos."
+    "stock": 10,
+    "observations": "Cosechar zapallitos frecuentemente para estimular la producción."
+  },
+  {
+    "name": "Flores (Calend./Copete)",
+    "family": "Asteraceae",
+    "image_url": "https://images.unsplash.com/photo-1599307221415-38ba2358897d?q=80&w=400",
+    "harvest_days": 60,
+    "removal_type": "Continuo o al florecer",
+    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Indispensables para el control biológico de plagas."
+  },
+  {
+    "name": "Arvejilla (Flor)",
+    "family": "Fabaceae",
+    "image_url": "https://images.unsplash.com/photo-1554631221-f9603e6808be?q=80&w=400",
+    "harvest_days": 100,
+    "removal_type": "Al florecer",
+    "planting_months": [3, 4, 5, 6],
+    "stock": 10,
+    "observations": "Trepadora de invierno muy perfumada y decorativa."
   }
 ]
