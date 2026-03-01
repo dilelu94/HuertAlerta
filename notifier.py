@@ -30,6 +30,12 @@ def send_telegram_message(token, chat_id, message):
 
 def main():
     current_month = datetime.now().month
+    months_es = {
+        1: "Enero", 2: "Febrero", 3: "Marzo", 4: "Abril",
+        5: "Mayo", 6: "Junio", 7: "Julio", 8: "Agosto",
+        9: "Septiembre", 10: "Octubre", 11: "Noviembre", 12: "Diciembre"
+    }
+    month_name = months_es[current_month]
     
     with open('seeds.json', 'r', encoding='utf-8') as f:
         seeds = json.load(f)
@@ -47,11 +53,11 @@ def main():
         return
 
     if not plantable_seeds:
-        send_telegram_message(token, chat_id, "🌱 *Huerto Notificador*\n\nNo hay semillas en stock para plantar este mes.")
+        send_telegram_message(token, chat_id, f"🌱 *Huerto Notificador*\n\nNo hay semillas en stock para plantar en {month_name}.")
         return
 
     # Mensaje de cabecera
-    header = f"🌱 *¡Es viernes de siembra!*\nMes: {datetime.now().strftime('%B')}\n\nAquí tienes las recomendaciones de hoy:"
+    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\nAquí tienes las recomendaciones de hoy:"
     send_telegram_message(token, chat_id, header)
 
     # Enviar cada semilla con su foto
