@@ -21,7 +21,7 @@
     ],
     "stock": 80,
     "observations": "Variedad muy resistente y de crecimiento rápido.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/lechuga_crespa.jpg"
   },
   {
     "name": "Lechuga Mantecosa",
@@ -45,7 +45,7 @@
     ],
     "stock": 80,
     "observations": "Hojas tiernas y suaves, ideal para ensaladas clásicas.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/lechuga_mantecosa.jpg"
   },
   {
     "name": "Lechuga Morada (4 Estaciones)",
@@ -69,7 +69,7 @@
     ],
     "stock": 80,
     "observations": "Muy decorativa y resistente a diferentes climas.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/lechuga_morada_4_estaciones.jpg"
   },
   {
     "name": "Lechuga Criolla",
@@ -93,7 +93,7 @@
     ],
     "stock": 80,
     "observations": "Variedad tradicional muy bien adaptada a la zona.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/lechuga_criolla.jpg"
   },
   {
     "name": "Rúcula",
@@ -113,7 +113,7 @@
     ],
     "stock": 2000,
     "observations": "Gran cantidad disponible; ideal para siembras densas.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/rúcula.jpg"
   },
   {
     "name": "Espinaca",
@@ -130,7 +130,7 @@
     ],
     "stock": 30,
     "observations": "Prefiere el frío; sembrar en otoño para mejores resultados.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/espinaca.jpg"
   },
   {
     "name": "Acelga",
@@ -154,7 +154,7 @@
     ],
     "stock": 30,
     "observations": "Cosechar las hojas externas para que siga produciendo.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/acelga.jpg"
   },
   {
     "name": "Achicoria Radicheta",
@@ -178,7 +178,7 @@
     ],
     "stock": 100,
     "observations": "Muy rústica; rebrota con fuerza después de cada corte.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/achicoria_radicheta.jpg"
   },
   {
     "name": "Escarola",
@@ -216,12 +216,11 @@
     ],
     "stock": 50,
     "observations": "Requiere suelo muy húmedo y rico en nutrientes.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/apio.jpg"
   },
   {
     "name": "Arveja",
     "family": "Fabaceae",
-    "image_url": "https://images.unsplash.com/photo-1590234185794-52a97576f304?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por cosecha",
     "planting_months": [
@@ -233,7 +232,7 @@
     ],
     "stock": 10,
     "observations": "Plantar con tutores para que trepen.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/arveja.jpg"
   },
   {
     "name": "Berenjena",
@@ -248,7 +247,7 @@
     ],
     "stock": 20,
     "observations": "Necesita mucho calor y sol directo.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/berenjena.jpg"
   },
   {
     "name": "Brócoli",
@@ -263,7 +262,7 @@
     ],
     "stock": 30,
     "observations": "Controlar las orugas de la col frecuentemente.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/brócoli.jpg"
   },
   {
     "name": "Coliflor",
@@ -279,7 +278,7 @@
     ],
     "stock": 30,
     "observations": "Tapar la pella con sus propias hojas para mantenerla blanca.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/coliflor.jpg"
   },
   {
     "name": "Cebolla de Verdeo",
@@ -299,7 +298,7 @@
     ],
     "stock": 40,
     "observations": "Se puede usar el bulbo y la hoja.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/cebolla_de_verdeo.jpg"
   },
   {
     "name": "Cebollas (Morada / Valenciana)",
@@ -314,7 +313,7 @@
     ],
     "stock": 80,
     "observations": "Cosechar cuando el cuello de la planta se dobla solo.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/cebollas_morada_valenciana.jpg"
   },
   {
     "name": "Chaucha",
@@ -329,7 +328,7 @@
     ],
     "stock": 10,
     "observations": "Siembra directa cuando ya no hay riesgo de heladas.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/chaucha.jpg"
   },
   {
     "name": "Hinojo",
@@ -346,7 +345,7 @@
     ],
     "stock": 30,
     "observations": "Evitar plantar cerca de tomates o legumbres.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/hinojo.jpg"
   },
   {
     "name": "Maíz Dulce",
@@ -361,7 +360,7 @@
     ],
     "stock": 10,
     "observations": "Plantar en bloques para asegurar una buena polinización.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/maíz_dulce.jpg"
   },
   {
     "name": "Melón / Sandía (Crimson Sweet)",
@@ -375,7 +374,7 @@
     ],
     "stock": 10,
     "observations": "Requieren mucho espacio para sus guías y sol pleno.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/melón_sandía_crimson_sweet.jpg"
   },
   {
     "name": "Morrón Rojo",
@@ -391,7 +390,7 @@
     ],
     "stock": 10,
     "observations": "Los frutos verdes maduran a rojo en la planta con sol.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/morrón_rojo.jpg"
   },
   {
     "name": "Pepino",
@@ -405,7 +404,7 @@
     ],
     "stock": 10,
     "observations": "Se puede cultivar en forma rastrera o trepadora.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/pepino.jpg"
   },
   {
     "name": "Puerro",
@@ -423,7 +422,7 @@
     ],
     "stock": 30,
     "observations": "Aporcar (cubrir con tierra) la base para blanquear el tallo.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/puerro.jpg"
   },
   {
     "name": "Rabanito",
@@ -446,7 +445,7 @@
     ],
     "stock": 40,
     "observations": "La hortaliza más rápida; sembrar poco pero seguido.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/rabanito.jpg"
   },
   {
     "name": "Remolacha",
@@ -470,7 +469,7 @@
     ],
     "stock": 20,
     "observations": "Las hojas jóvenes también son comestibles en ensalada.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/remolacha.jpg"
   },
   {
     "name": "Repollos (Blanco / Colorado)",
@@ -485,7 +484,7 @@
     ],
     "stock": 60,
     "observations": "Necesita un suelo firme y buen aporte de nitrógeno.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/repollos_blanco_colorado.jpg"
   },
   {
     "name": "Tomates (Perita / Platense)",
@@ -500,7 +499,7 @@
     ],
     "stock": 30,
     "observations": "El Platense es más rústico; el Perita ideal para salsas.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/tomates_perita_platense.jpg"
   },
   {
     "name": "Zanahoria",
@@ -523,7 +522,7 @@
     ],
     "stock": 40,
     "observations": "Mantener la humedad constante durante la germinación.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/zanahoria.jpg"
   },
   {
     "name": "Zapallos (Anco / Plomo / Zucchini / Mix)",
@@ -538,7 +537,7 @@
     ],
     "stock": 13,
     "observations": "Incluye mix de zapallos (30 semillas extra).",
-    "image_path": "images/default.jpg"
+    "image_path": "images/zapallos_anco_plomo_zucchini_mix.jpg"
   },
   {
     "name": "Albahacas (Genovesa / Morada)",
@@ -554,7 +553,7 @@
     ],
     "stock": 45,
     "observations": "Planta aromática indispensable en verano.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/albahacas_genovesa_morada.jpg"
   },
   {
     "name": "Aromáticas (Orégano / Tomillo / Mejorana)",
@@ -572,7 +571,7 @@
     ],
     "stock": 130,
     "observations": "Plantas perennes muy resistentes al sol.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/aromáticas_orégano_tomillo_mejorana.jpg"
   },
   {
     "name": "Aromáticas (Cilantro / Eneldo / Anís Verde)",
@@ -591,7 +590,7 @@
     ],
     "stock": 55,
     "observations": "Sus flores atraen fauna benéfica a la huerta.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/aromáticas_cilantro_eneldo_anís_verde.jpg"
   },
   {
     "name": "Aromáticas (Perejil Liso / Rizado)",
@@ -633,7 +632,7 @@
     ],
     "stock": 105,
     "observations": "Uso medicinal y aromático variado.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
   },
   {
     "name": "Especiales (Ciboulette / Mostaza Blanca)",
@@ -650,12 +649,11 @@
     ],
     "stock": 35,
     "observations": "Sabor intenso para tus platos.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/especiales_ciboulette_mostaza_blanca.jpg"
   },
   {
     "name": "Tomates Cherry (Negro / Rojo / Amarillo / Naranja / Reliquia)",
     "family": "Solanaceae",
-    "image_url": "https://images.unsplash.com/photo-1546027658-e536884149fd?q=80&w=400",
     "harvest_days": 90,
     "removal_type": "Desplante por temporada",
     "planting_months": [
@@ -666,7 +664,7 @@
     ],
     "stock": 110,
     "observations": "Incluye Negro, Rojo, Amarillo, Naranja y Mix Reliquia (50).",
-    "image_path": "images/default.jpg"
+    "image_path": "images/tomates_cherry_negro_rojo_amarillo_naranja_reliquia.jpg"
   },
   {
     "name": "Flores (Caléndula / Copete / Alhelí)",
@@ -690,7 +688,7 @@
     ],
     "stock": 70,
     "observations": "Fundamentales para mantener la huerta sana.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/flores_caléndula_copete_alhelí.jpg"
   },
   {
     "name": "Frutos Rojos / Vid (Frutilla / Arándano / Frambuesa / Uva)",
@@ -705,7 +703,7 @@
     ],
     "stock": 200,
     "observations": "Plantas perennes (stock de seguridad 50 c/u).",
-    "image_path": "images/default.jpg"
+    "image_path": "images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg"
   },
   {
     "name": "Varios (Ajo / Arvejilla)",
@@ -719,6 +717,6 @@
     ],
     "stock": 100,
     "observations": "Stock de seguridad 50 c/u.",
-    "image_path": "images/default.jpg"
+    "image_path": "images/varios_ajo_arvejilla.jpg"
   }
 ]
