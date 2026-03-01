@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Lechuga (Todas)",
+    "family": "Asteraceae",
+    "image_url": "https://images.unsplash.com/photo-1622206141540-58013137a456?q=80&w=400",
+    "harvest_days": 60,
+    "removal_type": "Continuo (Corte de hojas) o al florecer",
+    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Se puede sembrar todo el año, pero en verano requiere media sombra para no amargar."
+  },
+  {
+    "name": "Rúcula",
+    "family": "Brassicaceae",
+    "image_url": "https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?q=80&w=400",
+    "harvest_days": 40,
+    "removal_type": "Continuo o al florecer",
+    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "stock": 10,
+    "observations": "Crece muy rápido; conviene hacer siembras escalonadas cada 15 días."
+  },
+  {
+    "name": "Espinaca",
+    "family": "Amaranthaceae",
+    "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?q=80&w=400",
+    "harvest_days": 50,
+    "removal_type": "Continuo o al florecer",
+    "planting_months": [3, 4, 5, 6, 7, 8],
+    "stock": 10,
+    "observations": "Prefiere el frío; con el calor de Buenos Aires tiende a florecer prematuramente."
+  },
+  {
+    "name": "Tomate (Todos)",
+    "family": "Solanaceae",
+    "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=400",
+    "harvest_days": 100,
+    "removal_type": "Desplante por cambio de temporada (primeras heladas)",
+    "planting_months": [8, 9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Requiere tutores y mucho sol; el Platense es ideal para la zona norte."
+  },
+  {
+    "name": "Morrón / Ají",
+    "family": "Solanaceae",
+    "image_url": "https://images.unsplash.com/photo-1566114107554-82352ee8c440?q=80&w=400",
+    "harvest_days": 120,
+    "removal_type": "Desplante por cambio de temporada",
+    "planting_months": [8, 9, 10, 11],
+    "stock": 10,
+    "observations": "Necesita calor constante; en BA conviene iniciar almácigos protegidos en agosto."
+  },
+  {
+    "name": "Albahaca",
+    "family": "Lamiaceae",
+    "image_url": "https://images.unsplash.com/photo-1618375531912-867984d08892?q=80&w=400",
+    "harvest_days": 60,
+    "removal_type": "Al florecer o fin de verano",
+    "planting_months": [9, 10, 11, 12],
+    "stock": 10,
+    "observations": "Excelente compañera del tomate; repele plagas de forma natural."
+  },
+  {
+    "name": "Ajo",
+    "family": "Amaryllidaceae",
+    "image_url": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=400",
+    "harvest_days": 210,
+    "removal_type": "Cosecha única (desplante total)",
+    "planting_months": [3, 4, 5],
+    "stock": 10,
+    "observations": "Se planta el diente directamente; requiere suelo muy bien drenado."
+  },
+  {
+    "name": "Arvejas",
+    "family": "Fabaceae",
+    "image_url": "https://images.unsplash.com/photo-1590234185794-52a97576f304?q=80&w=400",
+    "harvest_days": 120,
+    "removal_type": "Cosecha única tras maduración de vainas",
+    "planting_months": [4, 5, 6, 7, 8],
+    "stock": 10,
+    "observations": "Fijan nitrógeno en el suelo; ideal para rotar donde hubo tomates."
+  },
+  {
+    "name": "Cilantro",
+    "family": "Apiaceae",
+    "image_url": "https://images.unsplash.com/photo-1588877329975-b45415ef6ba2?q=80&w=400",
+    "harvest_days": 45,
+    "removal_type": "Continuo o al florecer",
+    "planting_months": [3, 4, 5, 6, 7, 8, 9],
+    "stock": 10,
+    "observations": "Atrae polinizadores si se deja florecer al final de su ciclo."
+  },
+  {
+    "name": "Acelga / Remolacha",
+    "family": "Amaranthaceae",
+    "image_url": "https://images.unsplash.com/photo-1594313054113-902c525f0580?q=80&w=400",
+    "harvest_days": 70,
+    "removal_type": "Continuo (Acelga) / Única (Remolacha)",
+    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "stock": 0,
+    "observations": "Muy resistentes; la acelga puede durar más de un año produciendo."
+  },
+  {
+    "name": "Frutilla",
+    "family": "Rosaceae",
+    "image_url": "https://images.unsplash.com/photo-1464960320293-d7768e6fbc69?q=80&w=400",
+    "harvest_days": 150,
+    "removal_type": "Continuo por varios años (perenne)",
+    "planting_months": [4, 5, 6],
+    "stock": 10,
+    "observations": "En la zona norte conviene acolchar el suelo para proteger los frutos de la humedad."
+  },
+  {
+    "name": "Zapallitos / Zapallos",
+    "family": "Cucurbitaceae",
+    "image_url": "https://images.unsplash.com/photo-1506501139174-099022df5260?q=80&w=400",
+    "harvest_days": 90,
+    "removal_type": "Desplante por cambio de temporada",
+    "planting_months": [10, 11, 12, 1],
+    "stock": 0,
+    "observations": "Requieren mucho espacio y sol; cuidado con el oidio en otoños húmedos."
+  }
+]

@@ -1,0 +1,20 @@
+# Credenciales (CRÍTICO)
+.env
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
