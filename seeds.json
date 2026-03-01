@@ -5,9 +5,23 @@
     "image_url": "https://images.unsplash.com/photo-1622206141540-58013137a456?q=80&w=400",
     "harvest_days": 60,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 80,
-    "observations": "Variedad muy resistente y de crecimiento rápido."
+    "observations": "Variedad muy resistente y de crecimiento rápido.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Lechuga Mantecosa",
@@ -15,9 +29,23 @@
     "image_url": "https://images.unsplash.com/photo-1556801712-76c8206d76da?q=80&w=400",
     "harvest_days": 65,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 80,
-    "observations": "Hojas tiernas y suaves, ideal para ensaladas clásicas."
+    "observations": "Hojas tiernas y suaves, ideal para ensaladas clásicas.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Lechuga Morada (4 Estaciones)",
@@ -25,9 +53,23 @@
     "image_url": "https://images.unsplash.com/photo-1506070508064-9d2a1ef050f2?q=80&w=400",
     "harvest_days": 70,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 80,
-    "observations": "Muy decorativa y resistente a diferentes climas."
+    "observations": "Muy decorativa y resistente a diferentes climas.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Lechuga Criolla",
@@ -35,29 +77,60 @@
     "image_url": "https://images.unsplash.com/photo-1622206141540-58013137a456?q=80&w=400",
     "harvest_days": 65,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 80,
-    "observations": "Variedad tradicional muy bien adaptada a la zona."
+    "observations": "Variedad tradicional muy bien adaptada a la zona.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Rúcula",
     "family": "Brassicaceae",
-    "image_url": "https://images.unsplash.com/photo-1598030304671-5aa1d6f21128?q=80&w=400",
     "harvest_days": 40,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "stock": 2000,
-    "observations": "Gran cantidad disponible; ideal para siembras densas."
+    "observations": "Gran cantidad disponible; ideal para siembras densas.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Espinaca",
     "family": "Amaranthaceae",
-    "image_url": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?q=80&w=400",
     "harvest_days": 50,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [3, 4, 5, 6, 7, 8],
+    "planting_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
     "stock": 30,
-    "observations": "Prefiere el frío; sembrar en otoño para mejores resultados."
+    "observations": "Prefiere el frío; sembrar en otoño para mejores resultados.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Acelga",
@@ -65,9 +138,23 @@
     "image_url": "https://images.unsplash.com/photo-1594313054113-902c525f0580?q=80&w=400",
     "harvest_days": 70,
     "removal_type": "Continuo (Corte de hojas)",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 30,
-    "observations": "Cosechar las hojas externas para que siga produciendo."
+    "observations": "Cosechar las hojas externas para que siga produciendo.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Achicoria Radicheta",
@@ -75,9 +162,23 @@
     "image_url": "https://images.unsplash.com/photo-1629114255010-096d2963359d?q=80&w=400",
     "harvest_days": 45,
     "removal_type": "Continuo",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 100,
-    "observations": "Muy rústica; rebrota con fuerza después de cada corte."
+    "observations": "Muy rústica; rebrota con fuerza después de cada corte.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Escarola",
@@ -85,9 +186,18 @@
     "image_url": "https://images.unsplash.com/photo-1601564754409-e883f3e69006?q=80&w=400",
     "harvest_days": 80,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5, 6, 7, 8],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
     "stock": 50,
-    "observations": "Ideal para ensaladas de invierno; soporta bien el frío."
+    "observations": "Ideal para ensaladas de invierno; soporta bien el frío.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Apio",
@@ -95,9 +205,18 @@
     "image_url": "https://images.unsplash.com/photo-1597341022833-281b16e00ca3?q=80&w=400",
     "harvest_days": 130,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [1, 2, 3, 4, 8, 9, 10],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10
+    ],
     "stock": 50,
-    "observations": "Requiere suelo muy húmedo y rico en nutrientes."
+    "observations": "Requiere suelo muy húmedo y rico en nutrientes.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Arveja",
@@ -105,29 +224,46 @@
     "image_url": "https://images.unsplash.com/photo-1590234185794-52a97576f304?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [4, 5, 6, 7, 8],
+    "planting_months": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
     "stock": 10,
-    "observations": "Plantar con tutores para que trepen."
+    "observations": "Plantar con tutores para que trepen.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Berenjena",
     "family": "Solanaceae",
-    "image_url": "https://images.unsplash.com/photo-1590301157890-4810ed352733?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por temporada",
-    "planting_months": [8, 9, 10, 11],
+    "planting_months": [
+      8,
+      9,
+      10,
+      11
+    ],
     "stock": 20,
-    "observations": "Necesita mucho calor y sol directo."
+    "observations": "Necesita mucho calor y sol directo.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Brócoli",
     "family": "Brassicaceae",
-    "image_url": "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?q=80&w=400",
     "harvest_days": 100,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5
+    ],
     "stock": 30,
-    "observations": "Controlar las orugas de la col frecuentemente."
+    "observations": "Controlar las orugas de la col frecuentemente.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Coliflor",
@@ -135,39 +271,65 @@
     "image_url": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ec3?q=80&w=400",
     "harvest_days": 110,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5
+    ],
     "stock": 30,
-    "observations": "Tapar la pella con sus propias hojas para mantenerla blanca."
+    "observations": "Tapar la pella con sus propias hojas para mantenerla blanca.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Cebolla de Verdeo",
     "family": "Amaryllidaceae",
-    "image_url": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=400",
     "harvest_days": 90,
     "removal_type": "Continuo o desplante",
-    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "stock": 40,
-    "observations": "Se puede usar el bulbo y la hoja."
+    "observations": "Se puede usar el bulbo y la hoja.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Cebollas (Morada / Valenciana)",
     "family": "Amaryllidaceae",
-    "image_url": "https://images.unsplash.com/photo-1508747703725-719777637510?q=80&w=400",
     "harvest_days": 180,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5
+    ],
     "stock": 80,
-    "observations": "Cosechar cuando el cuello de la planta se dobla solo."
+    "observations": "Cosechar cuando el cuello de la planta se dobla solo.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Chaucha",
     "family": "Fabaceae",
-    "image_url": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=400",
     "harvest_days": 70,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [10, 11, 12, 1],
+    "planting_months": [
+      10,
+      11,
+      12,
+      1
+    ],
     "stock": 10,
-    "observations": "Siembra directa cuando ya no hay riesgo de heladas."
+    "observations": "Siembra directa cuando ya no hay riesgo de heladas.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Hinojo",
@@ -175,29 +337,45 @@
     "image_url": "https://images.unsplash.com/photo-1563823251941-b9989d1e138a?q=80&w=400",
     "harvest_days": 110,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 8, 9],
+    "planting_months": [
+      2,
+      3,
+      4,
+      8,
+      9
+    ],
     "stock": 30,
-    "observations": "Evitar plantar cerca de tomates o legumbres."
+    "observations": "Evitar plantar cerca de tomates o legumbres.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Maíz Dulce",
     "family": "Poaceae",
-    "image_url": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?q=80&w=400",
     "harvest_days": 80,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [10, 11, 12, 1],
+    "planting_months": [
+      10,
+      11,
+      12,
+      1
+    ],
     "stock": 10,
-    "observations": "Plantar en bloques para asegurar una buena polinización."
+    "observations": "Plantar en bloques para asegurar una buena polinización.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Melón / Sandía (Crimson Sweet)",
     "family": "Cucurbitaceae",
-    "image_url": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?q=80&w=400",
     "harvest_days": 100,
     "removal_type": "Desplante por temporada",
-    "planting_months": [10, 11, 12],
+    "planting_months": [
+      10,
+      11,
+      12
+    ],
     "stock": 10,
-    "observations": "Requieren mucho espacio para sus guías y sol pleno."
+    "observations": "Requieren mucho espacio para sus guías y sol pleno.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Morrón Rojo",
@@ -205,39 +383,70 @@
     "image_url": "https://images.unsplash.com/photo-1566114107554-82352ee8c440?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por temporada",
-    "planting_months": [8, 9, 10, 11],
+    "planting_months": [
+      8,
+      9,
+      10,
+      11
+    ],
     "stock": 10,
-    "observations": "Los frutos verdes maduran a rojo en la planta con sol."
+    "observations": "Los frutos verdes maduran a rojo en la planta con sol.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Pepino",
     "family": "Cucurbitaceae",
-    "image_url": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?q=80&w=400",
     "harvest_days": 60,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [10, 11, 12],
+    "planting_months": [
+      10,
+      11,
+      12
+    ],
     "stock": 10,
-    "observations": "Se puede cultivar en forma rastrera o trepadora."
+    "observations": "Se puede cultivar en forma rastrera o trepadora.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Puerro",
     "family": "Amaryllidaceae",
-    "image_url": "https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5, 8, 9, 10],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
     "stock": 30,
-    "observations": "Aporcar (cubrir con tierra) la base para blanquear el tallo."
+    "observations": "Aporcar (cubrir con tierra) la base para blanquear el tallo.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Rabanito",
     "family": "Brassicaceae",
-    "image_url": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=400",
     "harvest_days": 30,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 40,
-    "observations": "La hortaliza más rápida; sembrar poco pero seguido."
+    "observations": "La hortaliza más rápida; sembrar poco pero seguido.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Remolacha",
@@ -245,49 +454,91 @@
     "image_url": "https://images.unsplash.com/photo-1528113033608-d7885ac30f64?q=80&w=400",
     "harvest_days": 90,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 20,
-    "observations": "Las hojas jóvenes también son comestibles en ensalada."
+    "observations": "Las hojas jóvenes también son comestibles en ensalada.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Repollos (Blanco / Colorado)",
     "family": "Brassicaceae",
-    "image_url": "https://images.unsplash.com/photo-1592419044706-39796d40f98c?q=80&w=400",
     "harvest_days": 110,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [2, 3, 4, 5],
+    "planting_months": [
+      2,
+      3,
+      4,
+      5
+    ],
     "stock": 60,
-    "observations": "Necesita un suelo firme y buen aporte de nitrógeno."
+    "observations": "Necesita un suelo firme y buen aporte de nitrógeno.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Tomates (Perita / Platense)",
     "family": "Solanaceae",
-    "image_url": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=400",
     "harvest_days": 100,
     "removal_type": "Desplante por temporada",
-    "planting_months": [8, 9, 10, 11],
+    "planting_months": [
+      8,
+      9,
+      10,
+      11
+    ],
     "stock": 30,
-    "observations": "El Platense es más rústico; el Perita ideal para salsas."
+    "observations": "El Platense es más rústico; el Perita ideal para salsas.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Zanahoria",
     "family": "Apiaceae",
-    "image_url": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=400",
     "harvest_days": 120,
     "removal_type": "Desplante por cosecha",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 40,
-    "observations": "Mantener la humedad constante durante la germinación."
+    "observations": "Mantener la humedad constante durante la germinación.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Zapallos (Anco / Plomo / Zucchini / Mix)",
     "family": "Cucurbitaceae",
-    "image_url": "https://images.unsplash.com/photo-1506501139174-099022df5260?q=80&w=400",
     "harvest_days": 100,
     "removal_type": "Desplante por temporada",
-    "planting_months": [10, 11, 12, 1],
+    "planting_months": [
+      10,
+      11,
+      12,
+      1
+    ],
     "stock": 13,
-    "observations": "Incluye mix de zapallos (30 semillas extra)."
+    "observations": "Incluye mix de zapallos (30 semillas extra).",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Albahacas (Genovesa / Morada)",
@@ -295,9 +546,15 @@
     "image_url": "https://images.unsplash.com/photo-1618375531912-867984d08892?q=80&w=400",
     "harvest_days": 60,
     "removal_type": "Al florecer",
-    "planting_months": [9, 10, 11, 12],
+    "planting_months": [
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 45,
-    "observations": "Planta aromática indispensable en verano."
+    "observations": "Planta aromática indispensable en verano.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Aromáticas (Orégano / Tomillo / Mejorana)",
@@ -305,9 +562,17 @@
     "image_url": "https://images.unsplash.com/photo-1571151610411-923f76906a64?q=80&w=400",
     "harvest_days": 180,
     "removal_type": "Continuo (Perenne)",
-    "planting_months": [3, 4, 5, 8, 9, 10],
+    "planting_months": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
     "stock": 130,
-    "observations": "Plantas perennes muy resistentes al sol."
+    "observations": "Plantas perennes muy resistentes al sol.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Aromáticas (Cilantro / Eneldo / Anís Verde)",
@@ -315,9 +580,18 @@
     "image_url": "https://images.unsplash.com/photo-1588877329975-b45415ef6ba2?q=80&w=400",
     "harvest_days": 50,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [3, 4, 5, 6, 7, 8, 9],
+    "planting_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
     "stock": 55,
-    "observations": "Sus flores atraen fauna benéfica a la huerta."
+    "observations": "Sus flores atraen fauna benéfica a la huerta.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Aromáticas (Perejil Liso / Rizado)",
@@ -325,9 +599,23 @@
     "image_url": "https://images.unsplash.com/photo-1512411512530-994358a98f12?q=80&w=400",
     "harvest_days": 70,
     "removal_type": "Continuo",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 50,
-    "observations": "Tarda bastante en germinar, paciencia."
+    "observations": "Tarda bastante en germinar, paciencia.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Medicinales (Melisa / Manzanilla / Fenogreco)",
@@ -335,19 +623,34 @@
     "image_url": "https://images.unsplash.com/photo-1596715364119-905e32301548?q=80&w=400",
     "harvest_days": 90,
     "removal_type": "Continuo o cosecha",
-    "planting_months": [3, 4, 5, 8, 9, 10],
+    "planting_months": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
     "stock": 105,
-    "observations": "Uso medicinal y aromático variado."
+    "observations": "Uso medicinal y aromático variado.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Especiales (Ciboulette / Mostaza Blanca)",
     "family": "Aromáticas Especiales",
-    "image_url": "https://images.unsplash.com/photo-1615485925600-97237c4fc1ec?q=80&w=400",
     "harvest_days": 80,
     "removal_type": "Continuo",
-    "planting_months": [3, 4, 5, 8, 9, 10],
+    "planting_months": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
     "stock": 35,
-    "observations": "Sabor intenso para tus platos."
+    "observations": "Sabor intenso para tus platos.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Tomates Cherry (Negro / Rojo / Amarillo / Naranja / Reliquia)",
@@ -355,9 +658,15 @@
     "image_url": "https://images.unsplash.com/photo-1546027658-e536884149fd?q=80&w=400",
     "harvest_days": 90,
     "removal_type": "Desplante por temporada",
-    "planting_months": [8, 9, 10, 11],
+    "planting_months": [
+      8,
+      9,
+      10,
+      11
+    ],
     "stock": 110,
-    "observations": "Incluye Negro, Rojo, Amarillo, Naranja y Mix Reliquia (50)."
+    "observations": "Incluye Negro, Rojo, Amarillo, Naranja y Mix Reliquia (50).",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Flores (Caléndula / Copete / Alhelí)",
@@ -365,9 +674,23 @@
     "image_url": "https://images.unsplash.com/photo-1599307221415-38ba2358897d?q=80&w=400",
     "harvest_days": 60,
     "removal_type": "Continuo",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "planting_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "stock": 70,
-    "observations": "Fundamentales para mantener la huerta sana."
+    "observations": "Fundamentales para mantener la huerta sana.",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Frutos Rojos / Vid (Frutilla / Arándano / Frambuesa / Uva)",
@@ -375,18 +698,27 @@
     "image_url": "https://images.unsplash.com/photo-1464960320293-d7768e6fbc69?q=80&w=400",
     "harvest_days": 365,
     "removal_type": "Perenne",
-    "planting_months": [5, 6, 7],
+    "planting_months": [
+      5,
+      6,
+      7
+    ],
     "stock": 200,
-    "observations": "Plantas perennes (stock de seguridad 50 c/u)."
+    "observations": "Plantas perennes (stock de seguridad 50 c/u).",
+    "image_path": "images/default.jpg"
   },
   {
     "name": "Varios (Ajo / Arvejilla)",
     "family": "Varios",
-    "image_url": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?q=80&w=400",
     "harvest_days": 210,
     "removal_type": "Cosecha única",
-    "planting_months": [3, 4, 5],
+    "planting_months": [
+      3,
+      4,
+      5
+    ],
     "stock": 100,
-    "observations": "Stock de seguridad 50 c/u."
+    "observations": "Stock de seguridad 50 c/u.",
+    "image_path": "images/default.jpg"
   }
 ]

@@ -7,15 +7,29 @@ from dotenv import load_dotenv
 # Cargar variables locales si existen
 load_dotenv()
 
-def send_telegram_photo(token, chat_id, photo_url, caption):
+def send_telegram_photo(token, chat_id, photo_path, caption):
     url = f"https://api.telegram.org/bot{token}/sendPhoto"
-    payload = {
-        "chat_id": chat_id,
-        "photo": photo_url,
-        "caption": caption,
-        "parse_mode": "Markdown"
-    }
-    response = requests.post(url, json=payload)
+    
+    # Si la ruta es un archivo local
+    if os.path.exists(photo_path):
+        with open(photo_path, 'rb') as photo:
+            files = {'photo': photo}
+            payload = {
+                'chat_id': chat_id,
+                'caption': caption,
+                'parse_mode': 'Markdown'
+            }
+            response = requests.post(url, data=payload, files=files)
+    else:
+        # Si por alguna razón sigue siendo una URL o no existe el archivo
+        payload = {
+            "chat_id": chat_id,
+            "photo": photo_path,
+            "caption": caption,
+            "parse_mode": "Markdown"
+        }
+        response = requests.post(url, json=payload)
+    
     return response.json()
 
 def send_telegram_message(token, chat_id, message):
@@ -69,7 +83,12 @@ def main():
             f"⚠️ *Desplante:* {s['removal_type']}\n"
             f"📝 _'{s['observations']}'_"
         )
-        send_telegram_photo(token, chat_id, s['image_url'], caption)
+        # Usar image_path si existe, sino fallback a image_url
+        img_source = s.get('image_path') or s.get('image_url')
+        if img_source:
+            send_telegram_photo(token, chat_id, img_source, caption)
+        else:
+            send_telegram_message(token, chat_id, caption)
 
 if __name__ == "__main__":
     main()
