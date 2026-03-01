@@ -150,7 +150,7 @@
     "image_path": "images/cebolla_de_verdeo.jpg"
   },
   {
-    "name": "Cebollas (Morada / Valenciana)",
+    "name": "Cebolla Morada / Valenciana",
     "family": "Amaryllidaceae",
     "harvest_days": 180,
     "removal_type": "Desplante por cosecha",
@@ -331,7 +331,7 @@
   },
   {
     "name": "Medicinales (Melisa / Manzanilla / Fenogreco)",
-    "family": "Medicinales",
+    "family": "Lamiaceae/Asteraceae/Fabaceae",
     "harvest_days": 90,
     "removal_type": "Continuo o cosecha",
     "planting_months": [3, 4, 5, 8, 9, 10],
@@ -340,8 +340,8 @@
     "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
   },
   {
-    "name": "Especiales (Ciboulette / Mostaza Blanca)",
-    "family": "Aromáticas",
+    "name": "Hierbas (Ciboulette / Mostaza Blanca)",
+    "family": "Amaryllidaceae/Brassicaceae",
     "harvest_days": 80,
     "removal_type": "Continuo",
     "planting_months": [3, 4, 5, 8, 9, 10],
@@ -361,7 +361,7 @@
   },
   {
     "name": "Flores (Caléndula / Copete / Alhelí)",
-    "family": "Flores",
+    "family": "Asteraceae/Brassicaceae",
     "harvest_days": 60,
     "removal_type": "Continuo",
     "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
@@ -370,8 +370,8 @@
     "image_path": "images/flores_caléndula_copete_alhelí.jpg"
   },
   {
-    "name": "Frutos Rojos / Vid (Frutilla / Arándano / Frambuesa / Uva)",
-    "family": "Frutos Rojos",
+    "name": "Frutos (Frutilla / Arándano / Frambuesa / Uva)",
+    "family": "Rosaceae/Ericaceae/Vitaceae",
     "harvest_days": 365,
     "removal_type": "Perenne",
     "planting_months": [5, 6, 7],
@@ -381,7 +381,7 @@
   },
   {
     "name": "Varios (Ajo / Arvejilla)",
-    "family": "Otros",
+    "family": "Amaryllidaceae/Fabaceae",
     "harvest_days": 210,
     "removal_type": "Cosecha única",
     "planting_months": [3, 4, 5],
