@@ -1,60 +1,20 @@
 [
   {
-    "name": "Lechuga Crespa",
+    "name": "Lechugas (Crespa / Mantecosa / Morada / Criolla)",
     "family": "Asteraceae",
-    "harvest_days": 60,
+    "harvest_days": 65,
     "removal_type": "Continuo o al florecer",
     "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "stock": 80,
-    "observations": "Variedad muy resistente y de crecimiento rápido.",
+    "stock": 320,
+    "observations": "Mezcla de variedades para cosecha escalonada todo el año.",
     "image_path": "images/lechuga_crespa.jpg"
-  },
-  {
-    "name": "Lechuga Mantecosa",
-    "family": "Asteraceae",
-    "harvest_days": 65,
-    "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "stock": 80,
-    "observations": "Hojas tiernas y suaves, ideal para ensaladas clásicas.",
-    "image_path": "images/lechuga_mantecosa.jpg"
-  },
-  {
-    "name": "Lechuga Morada (4 Estaciones)",
-    "family": "Asteraceae",
-    "harvest_days": 70,
-    "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "stock": 80,
-    "observations": "Muy decorativa y resistente a diferentes climas.",
-    "image_path": "images/lechuga_morada_4_estaciones.jpg"
-  },
-  {
-    "name": "Lechuga Criolla",
-    "family": "Asteraceae",
-    "harvest_days": 65,
-    "removal_type": "Continuo o al florecer",
-    "planting_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    "stock": 80,
-    "observations": "Variedad tradicional muy bien adaptada a la zona.",
-    "image_path": "images/lechuga_criolla.jpg"
   },
   {
     "name": "Rúcula",
     "family": "Brassicaceae",
     "harvest_days": 40,
     "removal_type": "Continuo o al florecer",
-    "planting_months": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
+    "planting_months": [2, 3, 4, 5, 6, 7, 8, 9, 10],
     "stock": 2000,
     "observations": "Gran cantidad disponible; ideal para siembras densas.",
     "image_path": "images/rúcula.png"
