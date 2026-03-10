@@ -177,7 +177,7 @@
     "planting_months": [8, 9, 10, 11],
     "stock": 10,
     "observations": "Los frutos verdes maduran a rojo en la planta con sol.",
-    "image_path": "images/morrón_rojo.jpg"
+    "image_path": "images/morron_rojo.png"
   },
   {
     "name": "Pepino",
@@ -350,13 +350,13 @@
     "image_path": "images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg"
   },
   {
-    "name": "Varios (Ajo / Arvejilla)",
-    "family": "Amaryllidaceae/Fabaceae",
-    "harvest_days": 210,
-    "removal_type": "Cosecha única",
-    "planting_months": [3, 4, 5],
-    "stock": 100,
-    "observations": "Stock de seguridad 50 c/u.",
-    "image_path": "images/varios_ajo_arvejilla.jpg"
+    "name": "Arvejilla (Flor)",
+    "family": "Fabaceae",
+    "harvest_days": 100,
+    "removal_type": "Al florecer",
+    "planting_months": [3, 4, 5, 6],
+    "stock": 40,
+    "observations": "Trepadora de invierno muy perfumada y decorativa.",
+    "image_path": "images/arvejilla.png"
   }
 ]
