@@ -9,6 +9,8 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
@@ -28,3 +30,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python notifier.py
+
+      - name: Evitar suspensión por inactividad
+        uses: gautamkrishnar/keepalive-workflow@v2
