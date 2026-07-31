@@ -32,4 +32,15 @@ jobs:
         run: python notifier.py
 
       - name: Evitar suspensión por inactividad
-        uses: gautamkrishnar/keepalive-workflow@v2
+        run: |
+          LAST_COMMIT_TS=$(git log -1 --format=%ct)
+          CURRENT_TS=$(date +%s)
+          DIFF_DAYS=$(( (CURRENT_TS - LAST_COMMIT_TS) / 86400 ))
+          if [ $DIFF_DAYS -gt 50 ]; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git commit --allow-empty -m "Auto keepalive commit to prevent cron suspension"
+            git push
+          else
+            echo "El último commit fue hace $DIFF_DAYS días. No es necesario el keepalive todavía."
+          fi
