@@ -646,5 +646,21 @@
         "removal_type": "Siembra directa superficial (semilla muy fina) o almácigo",
         "stock": 10,
         "observations": "Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano."
+    },
+    {
+        "name": "Habas",
+        "family": "Fabaceae (Leguminosas)",
+        "planting_months": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "harvest_days": 105,
+        "removal_type": "Siembra directa (a 3-5 cm de profundidad)",
+        "stock": 10,
+        "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas."
     }
 ]
