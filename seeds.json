@@ -406,21 +406,6 @@
         "image_path": "images/repollos_blanco_colorado.jpg"
     },
     {
-        "name": "Tomates (Perita / Platense)",
-        "family": "Solanaceae",
-        "harvest_days": 100,
-        "removal_type": "Desplante por temporada",
-        "planting_months": [
-            8,
-            9,
-            10,
-            11
-        ],
-        "stock": 30,
-        "observations": "El Platense es más rústico; el Perita ideal para salsas.",
-        "image_path": "images/tomates_perita_platense.jpg"
-    },
-    {
         "name": "Zanahoria",
         "family": "Apiaceae",
         "harvest_days": 120,
@@ -472,64 +457,6 @@
         "stock": 45,
         "observations": "Planta aromática indispensable en verano.",
         "image_path": "images/albahacas_genovesa_morada.jpg"
-    },
-    {
-        "name": "Aromáticas (Orégano / Tomillo / Mejorana)",
-        "family": "Lamiaceae",
-        "harvest_days": 180,
-        "removal_type": "Continuo (Perenne)",
-        "planting_months": [
-            3,
-            4,
-            5,
-            8,
-            9,
-            10
-        ],
-        "stock": 130,
-        "observations": "Plantas perennes muy resistentes al sol.",
-        "image_path": "images/aromáticas_orégano_tomillo_mejorana.jpg"
-    },
-    {
-        "name": "Aromáticas (Cilantro / Eneldo / Anís Verde)",
-        "family": "Apiaceae",
-        "harvest_days": 50,
-        "removal_type": "Continuo o al florecer",
-        "planting_months": [
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
-        ],
-        "stock": 55,
-        "observations": "Sus flores atraen fauna benéfica a la huerta.",
-        "image_path": "images/aromáticas_cilantro_eneldo_anís_verde.jpg"
-    },
-    {
-        "name": "Aromáticas (Perejil Liso / Rizado)",
-        "family": "Apiaceae",
-        "harvest_days": 70,
-        "removal_type": "Continuo",
-        "planting_months": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "stock": 50,
-        "observations": "Tarda bastante en germinar, paciencia.",
-        "image_path": "images/aromáticas_perejil_liso_rizado.jpg"
     },
     {
         "name": "Medicinales (Melisa / Manzanilla / Fenogreco)",
@@ -878,5 +805,236 @@
         "removal_type": "Directa o almácigo",
         "stock": 1,
         "observations": "Flor comestible y medicinal. Atrae polinizadores y repele pulgones."
+    },
+    {
+        "name": "Orégano",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11,
+            2,
+            3,
+            4
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo o división",
+        "stock": 40,
+        "observations": "Perenne. Muy rústico y fácil de cultivar."
+    },
+    {
+        "name": "Albahaca genovesa",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo",
+        "stock": 30,
+        "observations": "Sensible a heladas. Pizcar flores para alargar ciclo."
+    },
+    {
+        "name": "Albahaca morada",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo",
+        "stock": 20,
+        "observations": "Aromática y muy decorativa. Sensible al frío."
+    },
+    {
+        "name": "Tomillo",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11,
+            3,
+            4
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo",
+        "stock": 50,
+        "observations": "Perenne. Requiere buen drenaje, no tolera encharcamiento."
+    },
+    {
+        "name": "Cilantro",
+        "family": "Apiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            3,
+            4,
+            5
+        ],
+        "harvest_days": 40,
+        "removal_type": "Directa",
+        "stock": 20,
+        "observations": "Tiende a espigar rápido con calor. Sembrar escalonado."
+    },
+    {
+        "name": "Perejil liso",
+        "family": "Apiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            2,
+            3,
+            4
+        ],
+        "harvest_days": 70,
+        "removal_type": "Directa (remojar semillas 24h)",
+        "stock": 30,
+        "observations": "Cosecha continua de hojas externas."
+    },
+    {
+        "name": "Perejil rizado",
+        "family": "Apiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            2,
+            3,
+            4
+        ],
+        "harvest_days": 70,
+        "removal_type": "Directa (remojar semillas 24h)",
+        "stock": 20,
+        "observations": "Más decorativo y textura rizada."
+    },
+    {
+        "name": "Melisa",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11,
+            3,
+            4
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 30,
+        "observations": "Perenne. Crece rápido y tiene un rico aroma a limón."
+    },
+    {
+        "name": "Anís verde",
+        "family": "Apiaceae",
+        "planting_months": [
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 120,
+        "removal_type": "Directa",
+        "stock": 15,
+        "observations": "Semillas aromáticas usadas en repostería."
+    },
+    {
+        "name": "Fenogreco",
+        "family": "Fabaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            3,
+            4
+        ],
+        "harvest_days": 90,
+        "removal_type": "Directa",
+        "stock": 15,
+        "observations": "Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles."
+    },
+    {
+        "name": "Manzanilla",
+        "family": "Asteraceae",
+        "planting_months": [
+            3,
+            4,
+            5,
+            8,
+            9
+        ],
+        "harvest_days": 70,
+        "removal_type": "Directa o almácigo superficial",
+        "stock": 50,
+        "observations": "Flores medicinales. Fácil resiembra."
+    },
+    {
+        "name": "Eneldo",
+        "family": "Apiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            3,
+            4
+        ],
+        "harvest_days": 60,
+        "removal_type": "Directa",
+        "stock": 20,
+        "observations": "Atrae polinizadores. No trasplantar, raíz pivotante."
+    },
+    {
+        "name": "Ciboulette",
+        "family": "Amaryllidaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11,
+            2,
+            3,
+            4
+        ],
+        "harvest_days": 60,
+        "removal_type": "Directa o almácigo",
+        "stock": 15,
+        "observations": "Cosecha cortando a nivel del suelo. Perenne."
+    },
+    {
+        "name": "Mejorana",
+        "family": "Lamiaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11,
+            3,
+            4
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 40,
+        "observations": "Perenne. Aroma suave y dulce, similar al orégano."
+    },
+    {
+        "name": "Mostaza",
+        "family": "Brassicaceae",
+        "planting_months": [
+            3,
+            4,
+            5,
+            8,
+            9
+        ],
+        "harvest_days": 40,
+        "removal_type": "Directa",
+        "stock": 30,
+        "observations": "Hojas picantes para ensalada y semillas para condimento."
     }
 ]
