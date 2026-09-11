@@ -644,7 +644,7 @@
         ],
         "harvest_days": 65,
         "removal_type": "Siembra directa superficial (semilla muy fina) o almácigo",
-        "stock": 10,
+        "stock": 11,
         "observations": "Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano."
     },
     {
@@ -662,5 +662,221 @@
         "removal_type": "Siembra directa (a 3-5 cm de profundidad)",
         "stock": 10,
         "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas."
+    },
+    {
+        "name": "Tomate cherry Mini Kumato",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Variedad oscura, muy dulce."
+    },
+    {
+        "name": "Tomate cherry Minibell Azul",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Requiere sol directo para desarrollar el tono azul/violáceo."
+    },
+    {
+        "name": "Tomate cherry Cereza Sueco",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 75,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Muy productivo."
+    },
+    {
+        "name": "Tomate cherry Dátil Amarillo",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Sabor muy dulce y forma alargada."
+    },
+    {
+        "name": "Tomate cherry Perita Naranja",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Color vibrante y pulpa firme."
+    },
+    {
+        "name": "Tomate redondo racimo",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Ideal para ensaladas. Requiere buen tutorado."
+    },
+    {
+        "name": "Tomate perita (Río Grande)",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Excelente para salsas y conservas. Determinada (no requiere desbrote estricto)."
+    },
+    {
+        "name": "Mix Tomates reliquia",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Variedades antiguas con gran sabor y diferentes colores/formas."
+    },
+    {
+        "name": "Morrón rojo (California)",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 100,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Pimiento dulce clásico, grueso y carnoso."
+    },
+    {
+        "name": "Mix Ajíes picantes",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 100,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Variedades picantes variadas. Manejar semillas con cuidado."
+    },
+    {
+        "name": "Berenjena (Florida Market)",
+        "family": "Solanaceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 110,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Frutos grandes y oscuros. Sensible a heladas."
+    },
+    {
+        "name": "Escarola (hoja fina)",
+        "family": "Asteraceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9
+        ],
+        "harvest_days": 80,
+        "removal_type": "Almácigo o directa",
+        "stock": 1,
+        "observations": "Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor."
+    },
+    {
+        "name": "Copete gigante",
+        "family": "Asteraceae",
+        "planting_months": [
+            8,
+            9,
+            10,
+            11
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Excelente flor para la huerta, repele nemátodos y atrae polinizadores."
+    },
+    {
+        "name": "Alelí de Mahón",
+        "family": "Brassicaceae",
+        "planting_months": [
+            3,
+            4,
+            5,
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 90,
+        "removal_type": "Almácigo",
+        "stock": 1,
+        "observations": "Flor aromática de colores intensos."
+    },
+    {
+        "name": "Caléndula",
+        "family": "Asteraceae",
+        "planting_months": [
+            3,
+            4,
+            5,
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 60,
+        "removal_type": "Directa o almácigo",
+        "stock": 1,
+        "observations": "Flor comestible y medicinal. Atrae polinizadores y repele pulgones."
     }
 ]
