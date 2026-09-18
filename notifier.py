@@ -70,8 +70,9 @@ def main():
         send_telegram_message(token, chat_id, f"🌱 *Huerto Notificador*\n\nNo hay semillas en stock para plantar en {month_name}.")
         return
 
-    # Mensaje de cabecera
-    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\nAquí tienes las recomendaciones de la semana:"
+    # Mensaje de cabecera con la lista de todo lo que se puede sembrar
+    seed_list_text = "\n".join([f"• {s['name']}" for s in plantable_seeds])
+    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\n*Lo que puedes sembrar ahora es:*\n{seed_list_text}\n\nA continuación, los detalles de cada una:"
     send_telegram_message(token, chat_id, header)
 
     # Enviar cada semilla con su foto
