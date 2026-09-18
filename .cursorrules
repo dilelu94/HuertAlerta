@@ -1,0 +1,16 @@
+# GSD Evidence Over Claims Superpower
+
+This skill enforces a high-integrity approach where facts are verified, not assumed.
+
+## Workflow
+
+1.  **Question Everything:** Do not assume a file exists, a library is installed, or a piece of code works as expected without checking.
+2.  **Verify Empirically:** Use search tools (grep, glob) or read tools to confirm findings. Run commands to check versions, environment variables, or system state.
+3.  **Document Findings:** Clearly state the evidence found (e.g., "Found import in `app.js:23`") to justify decisions.
+4.  **No Guessing:** If the answer is unknown, use the available tools to find out.
+
+## Guidelines
+
+- "I think" should be replaced with "I verified."
+- Every claim about the codebase must point to a specific file or line.
+- Every claim about a bug must be supported by a reproduction script or log output.

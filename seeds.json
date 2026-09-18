@@ -158,21 +158,6 @@
         "image_path": "images/arveja.jpg"
     },
     {
-        "name": "Berenjena",
-        "family": "Solanaceae",
-        "harvest_days": 120,
-        "removal_type": "Desplante por temporada",
-        "planting_months": [
-            8,
-            9,
-            10,
-            11
-        ],
-        "stock": 20,
-        "observations": "Necesita mucho calor y sol directo.",
-        "image_path": "images/berenjena.jpg"
-    },
-    {
         "name": "Brócoli",
         "family": "Brassicaceae",
         "harvest_days": 100,
@@ -296,21 +281,6 @@
         "stock": 10,
         "observations": "Requieren mucho espacio para sus guías y sol pleno.",
         "image_path": "images/melón_sandía_crimson_sweet.jpg"
-    },
-    {
-        "name": "Morrón Rojo",
-        "family": "Solanaceae",
-        "harvest_days": 120,
-        "removal_type": "Desplante por temporada",
-        "planting_months": [
-            8,
-            9,
-            10,
-            11
-        ],
-        "stock": 10,
-        "observations": "Los frutos verdes maduran a rojo en la planta con sol.",
-        "image_path": "images/morron_rojo.png"
     },
     {
         "name": "Pepino",
@@ -442,93 +412,6 @@
         "stock": 13,
         "observations": "Incluye mix de zapallos (30 semillas extra).",
         "image_path": "images/zapallos_anco_plomo_zucchini_mix.jpg"
-    },
-    {
-        "name": "Albahacas (Genovesa / Morada)",
-        "family": "Lamiaceae",
-        "harvest_days": 60,
-        "removal_type": "Al florecer",
-        "planting_months": [
-            9,
-            10,
-            11,
-            12
-        ],
-        "stock": 45,
-        "observations": "Planta aromática indispensable en verano.",
-        "image_path": "images/albahacas_genovesa_morada.jpg"
-    },
-    {
-        "name": "Medicinales (Melisa / Manzanilla / Fenogreco)",
-        "family": "Lamiaceae/Asteraceae/Fabaceae",
-        "harvest_days": 90,
-        "removal_type": "Continuo o cosecha",
-        "planting_months": [
-            3,
-            4,
-            5,
-            8,
-            9,
-            10
-        ],
-        "stock": 105,
-        "observations": "Uso medicinal y aromático variado.",
-        "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
-    },
-    {
-        "name": "Hierbas (Ciboulette / Mostaza Blanca)",
-        "family": "Amaryllidaceae/Brassicaceae",
-        "harvest_days": 80,
-        "removal_type": "Continuo",
-        "planting_months": [
-            3,
-            4,
-            5,
-            8,
-            9,
-            10
-        ],
-        "stock": 35,
-        "observations": "Sabor intenso para tus platos.",
-        "image_path": "images/especiales_ciboulette_mostaza_blanca.png"
-    },
-    {
-        "name": "Tomates Cherry (Negro / Rojo / Amarillo / Naranja / Reliquia)",
-        "family": "Solanaceae",
-        "harvest_days": 90,
-        "removal_type": "Desplante por temporada",
-        "planting_months": [
-            8,
-            9,
-            10,
-            11
-        ],
-        "stock": 110,
-        "observations": "Incluye Negro, Rojo, Amarillo, Naranja y Mix Reliquia (50).",
-        "image_path": "images/tomates_cherry_negro_rojo_amarillo_naranja_reliquia.jpg"
-    },
-    {
-        "name": "Flores (Caléndula / Copete / Alhelí)",
-        "family": "Asteraceae/Brassicaceae",
-        "harvest_days": 60,
-        "removal_type": "Continuo",
-        "planting_months": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "stock": 70,
-        "observations": "Fundamentales para mantener la huerta sana.",
-        "image_path": "images/flores_caléndula_copete_alhelí.jpg"
     },
     {
         "name": "Frutos (Frutilla / Arándano / Frambuesa / Uva)",

@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import time
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -100,6 +101,9 @@ def main():
             send_telegram_photo(token, chat_id, img_source, caption)
         else:
             send_telegram_message(token, chat_id, caption)
+        
+        # Pausa de 2 segundos para no saturar el API de Telegram y evitar errores 429
+        time.sleep(2)
 
 if __name__ == "__main__":
     main()
