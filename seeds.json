@@ -130,7 +130,7 @@
             7,
             8
         ],
-        "stock": 10,
+        "stock": 8,
         "observations": "Plantar con tutores para que trepen.",
         "image_path": "images/arveja.jpg"
     },
@@ -226,7 +226,7 @@
             8,
             9
         ],
-        "stock": 30,
+        "stock": 50,
         "observations": "Evitar plantar cerca de tomates o legumbres.",
         "image_path": "images/hinojo.jpg"
     },
@@ -447,7 +447,7 @@
         ],
         "harvest_days": 105,
         "removal_type": "Siembra directa (a 3-5 cm de profundidad)",
-        "stock": 10,
+        "stock": 12,
         "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas."
     },
     {
@@ -894,7 +894,7 @@
         ],
         "harvest_days": 40,
         "removal_type": "Directa",
-        "stock": 30,
+        "stock": 50,
         "observations": "Hojas picantes para ensalada y semillas para condimento."
     },
     {
@@ -1033,5 +1033,33 @@
         "removal_type": "Directa",
         "stock": 5,
         "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Mix zapallos y calabacines",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 120,
+        "removal_type": "Directa",
+        "stock": 30,
+        "observations": "Actualizado desde lista."
+    },
+    {
+        "name": "Zapallito de tronco",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 60,
+        "removal_type": "Directa",
+        "stock": 15,
+        "observations": "Actualizado desde lista."
     }
 ]
