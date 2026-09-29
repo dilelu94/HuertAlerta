@@ -1,28 +1,5 @@
 [
     {
-        "name": "Lechugas (Crespa / Mantecosa / Morada / Criolla)",
-        "family": "Asteraceae",
-        "harvest_days": 65,
-        "removal_type": "Continuo o al florecer",
-        "planting_months": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-        ],
-        "stock": 320,
-        "observations": "Mezcla de variedades para cosecha escalonada todo el año.",
-        "image_path": "images/lechuga_crespa.jpg"
-    },
-    {
         "name": "Rúcula",
         "family": "Brassicaceae",
         "harvest_days": 40,
@@ -55,7 +32,7 @@
             7,
             8
         ],
-        "stock": 30,
+        "stock": 50,
         "observations": "Prefiere el frío; sembrar en otoño para mejores resultados.",
         "image_path": "images/espinaca.jpg"
     },
@@ -233,7 +210,7 @@
             12,
             1
         ],
-        "stock": 10,
+        "stock": 12,
         "observations": "Siembra directa cuando ya no hay riesgo de heladas.",
         "image_path": "images/chaucha.jpg"
     },
@@ -264,7 +241,7 @@
             12,
             1
         ],
-        "stock": 10,
+        "stock": 12,
         "observations": "Plantar en bloques para asegurar una buena polinización.",
         "image_path": "images/maíz_dulce.jpg"
     },
@@ -292,7 +269,7 @@
             11,
             12
         ],
-        "stock": 10,
+        "stock": 15,
         "observations": "Se puede cultivar en forma rastrera o trepadora.",
         "image_path": "images/pepino.jpg"
     },
@@ -394,7 +371,7 @@
             11,
             12
         ],
-        "stock": 40,
+        "stock": 100,
         "observations": "Mantener la humedad constante durante la germinación.",
         "image_path": "images/zanahoria.jpg"
     },
@@ -919,5 +896,142 @@
         "removal_type": "Directa",
         "stock": 30,
         "observations": "Hojas picantes para ensalada y semillas para condimento."
+    },
+    {
+        "name": "Lechuga romana verde",
+        "family": "Asteraceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo o directa",
+        "stock": 80,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Lechuga mantecosa",
+        "family": "Asteraceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo o directa",
+        "stock": 80,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Melón",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 100,
+        "removal_type": "Directa (a golpes)",
+        "stock": 15,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Repollo colorado",
+        "family": "Brassicaceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            8,
+            9
+        ],
+        "harvest_days": 100,
+        "removal_type": "Almácigo",
+        "stock": 30,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Lechuga morada",
+        "family": "Asteraceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10
+        ],
+        "harvest_days": 60,
+        "removal_type": "Almácigo o directa",
+        "stock": 80,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Repollo blanco",
+        "family": "Brassicaceae",
+        "planting_months": [
+            2,
+            3,
+            4,
+            8,
+            9
+        ],
+        "harvest_days": 100,
+        "removal_type": "Almácigo",
+        "stock": 30,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Sandía",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 100,
+        "removal_type": "Directa",
+        "stock": 15,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Zucchini",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 60,
+        "removal_type": "Directa",
+        "stock": 5,
+        "observations": "Actualizado desde lista OCR."
+    },
+    {
+        "name": "Zapallo anco",
+        "family": "Cucurbitaceae",
+        "planting_months": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "harvest_days": 120,
+        "removal_type": "Directa",
+        "stock": 5,
+        "observations": "Actualizado desde lista OCR."
     }
 ]
