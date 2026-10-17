@@ -98,7 +98,7 @@
         ],
         "stock": 50,
         "observations": "Ideal para ensaladas de invierno; soporta bien el frío.",
-        "image_path": "images/default.jpg"
+        "image_path": null
     },
     {
         "name": "Apio",

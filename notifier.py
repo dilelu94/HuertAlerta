@@ -97,7 +97,7 @@ def main():
         )
         # Usar image_path si existe, sino fallback a image_url
         img_source = s.get('image_path') or s.get('image_url')
-        if img_source:
+        if img_source and (os.path.exists(img_source) or img_source.startswith('http://') or img_source.startswith('https://')):
             send_telegram_photo(token, chat_id, img_source, caption)
         else:
             send_telegram_message(token, chat_id, caption)
