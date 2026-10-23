@@ -80,37 +80,23 @@ def main():
         send_telegram_message(token, chat_id, f"🌱 *Huerto Notificador*\n\nNo hay semillas en stock para plantar en {month_name}.")
         return
 
-    # Mensaje de cabecera con enlaces a la ficha de cada planta en GitHub
-    repo_url = "https://github.com/dilelu94/HuertAlerta/blob/master/plantas"
+    # Mensaje de cabecera con enlaces a la ficha de cada planta en GitHub Pages
+    base_url = "https://dilelu94.github.io/HuertAlerta/#p"
     lines = []
     for s in plantable_seeds:
-        slug = slugify(s['name'])
-        url = f"{repo_url}/{slug}.md"
+        seed_id = s.get('id') or slugify(s['name'])
+        url = f"{base_url}{seed_id}"
         lines.append(f"• [{s['name']}]({url})")
 
-    # Si hay muchas plantas, dividimos en 2 partes para no superar el límite de 4096 caracteres de Telegram
-    midpoint = (len(lines) + 1) // 2 if len(lines) > 30 else len(lines)
-    part1_lines = lines[:midpoint]
-    part2_lines = lines[midpoint:]
-
-    msg1 = (
+    seed_list_text = "\n".join(lines)
+    header = (
         f"🌱 *¡Es viernes de siembra!*\n"
         f"Mes: *{month_name}*\n\n"
         f"*Lo que puedes sembrar ahora ({len(plantable_seeds)} variedades):*\n\n"
-        + "\n".join(part1_lines)
+        f"{seed_list_text}\n\n"
+        f"👉 _Toca el nombre de cualquier planta para ver su foto, cosecha y tips._"
     )
-    
-    if part2_lines:
-        send_telegram_message(token, chat_id, msg1)
-        time.sleep(1)
-        msg2 = (
-            "\n".join(part2_lines) + "\n\n"
-            "👉 _Toca el nombre de cualquier planta para abrir su ficha en GitHub con foto, cosecha y tips._"
-        )
-        send_telegram_message(token, chat_id, msg2)
-    else:
-        msg1 += "\n\n👉 _Toca el nombre de cualquier planta para abrir su ficha en GitHub con foto, cosecha y tips._"
-        send_telegram_message(token, chat_id, msg1)
+    send_telegram_message(token, chat_id, header)
 
 if __name__ == "__main__":
     main()

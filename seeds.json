@@ -17,7 +17,8 @@
         ],
         "stock": 2000,
         "observations": "Gran cantidad disponible; ideal para siembras densas.",
-        "image_path": "images/rúcula.png"
+        "image_path": "images/rúcula.png",
+        "id": 1
     },
     {
         "name": "Espinaca",
@@ -34,7 +35,8 @@
         ],
         "stock": 50,
         "observations": "Prefiere el frío; sembrar en otoño para mejores resultados.",
-        "image_path": "images/espinaca.jpg"
+        "image_path": "images/espinaca.jpg",
+        "id": 2
     },
     {
         "name": "Acelga",
@@ -57,7 +59,8 @@
         ],
         "stock": 30,
         "observations": "Cosechar las hojas externas para que siga produciendo.",
-        "image_path": "images/acelga.jpg"
+        "image_path": "images/acelga.jpg",
+        "id": 3
     },
     {
         "name": "Achicoria Radicheta",
@@ -80,7 +83,8 @@
         ],
         "stock": 100,
         "observations": "Muy rústica; rebrota con fuerza después de cada corte.",
-        "image_path": "images/achicoria_radicheta.jpg"
+        "image_path": "images/achicoria_radicheta.jpg",
+        "id": 4
     },
     {
         "name": "Escarola",
@@ -98,7 +102,8 @@
         ],
         "stock": 50,
         "observations": "Ideal para ensaladas de invierno; soporta bien el frío.",
-        "image_path": null
+        "image_path": null,
+        "id": 5
     },
     {
         "name": "Apio",
@@ -116,7 +121,8 @@
         ],
         "stock": 50,
         "observations": "Requiere suelo muy húmedo y rico en nutrientes.",
-        "image_path": "images/apio.jpg"
+        "image_path": "images/apio.jpg",
+        "id": 6
     },
     {
         "name": "Arveja",
@@ -132,7 +138,8 @@
         ],
         "stock": 8,
         "observations": "Plantar con tutores para que trepen.",
-        "image_path": "images/arveja.jpg"
+        "image_path": "images/arveja.jpg",
+        "id": 7
     },
     {
         "name": "Brócoli",
@@ -147,7 +154,8 @@
         ],
         "stock": 30,
         "observations": "Controlar las orugas de la col frecuentemente.",
-        "image_path": "images/brócoli.jpg"
+        "image_path": "images/brócoli.jpg",
+        "id": 8
     },
     {
         "name": "Coliflor",
@@ -162,7 +170,8 @@
         ],
         "stock": 30,
         "observations": "Tapar la pella con sus propias hojas para mantenerla blanca.",
-        "image_path": "images/coliflor.jpg"
+        "image_path": "images/coliflor.jpg",
+        "id": 9
     },
     {
         "name": "Cebolla de Verdeo",
@@ -182,7 +191,8 @@
         ],
         "stock": 40,
         "observations": "Se puede usar el bulbo y la hoja.",
-        "image_path": "images/cebolla_de_verdeo.jpg"
+        "image_path": "images/cebolla_de_verdeo.jpg",
+        "id": 10
     },
     {
         "name": "Cebolla Morada / Valenciana",
@@ -197,7 +207,8 @@
         ],
         "stock": 80,
         "observations": "Cosechar cuando el cuello de la planta se dobla solo.",
-        "image_path": "images/cebolla_morada.png"
+        "image_path": "images/cebolla_morada.png",
+        "id": 11
     },
     {
         "name": "Chaucha",
@@ -212,7 +223,8 @@
         ],
         "stock": 12,
         "observations": "Siembra directa cuando ya no hay riesgo de heladas.",
-        "image_path": "images/chaucha.jpg"
+        "image_path": "images/chaucha.jpg",
+        "id": 12
     },
     {
         "name": "Hinojo",
@@ -228,7 +240,8 @@
         ],
         "stock": 50,
         "observations": "Evitar plantar cerca de tomates o legumbres.",
-        "image_path": "images/hinojo.jpg"
+        "image_path": "images/hinojo.jpg",
+        "id": 13
     },
     {
         "name": "Maíz Dulce",
@@ -243,7 +256,8 @@
         ],
         "stock": 12,
         "observations": "Plantar en bloques para asegurar una buena polinización.",
-        "image_path": "images/maíz_dulce.jpg"
+        "image_path": "images/maíz_dulce.jpg",
+        "id": 14
     },
     {
         "name": "Melón / Sandía (Crimson Sweet)",
@@ -257,7 +271,8 @@
         ],
         "stock": 10,
         "observations": "Requieren mucho espacio para sus guías y sol pleno.",
-        "image_path": "images/melón_sandía_crimson_sweet.jpg"
+        "image_path": "images/melón_sandía_crimson_sweet.jpg",
+        "id": 15
     },
     {
         "name": "Pepino",
@@ -271,7 +286,8 @@
         ],
         "stock": 15,
         "observations": "Se puede cultivar en forma rastrera o trepadora.",
-        "image_path": "images/pepino.jpg"
+        "image_path": "images/pepino.jpg",
+        "id": 16
     },
     {
         "name": "Puerro",
@@ -289,7 +305,8 @@
         ],
         "stock": 30,
         "observations": "Aporcar (cubrir con tierra) la base para blanquear el tallo.",
-        "image_path": "images/puerro.jpg"
+        "image_path": "images/puerro.jpg",
+        "id": 17
     },
     {
         "name": "Rabanito",
@@ -312,7 +329,8 @@
         ],
         "stock": 40,
         "observations": "La hortaliza más rápida; sembrar poco pero seguido.",
-        "image_path": "images/rabanito.jpg"
+        "image_path": "images/rabanito.jpg",
+        "id": 18
     },
     {
         "name": "Remolacha",
@@ -335,7 +353,8 @@
         ],
         "stock": 20,
         "observations": "Las hojas jóvenes también son comestibles en ensalada.",
-        "image_path": "images/remolacha.jpg"
+        "image_path": "images/remolacha.jpg",
+        "id": 19
     },
     {
         "name": "Repollos (Blanco / Colorado)",
@@ -350,7 +369,8 @@
         ],
         "stock": 60,
         "observations": "Necesita un suelo firme y buen aporte de nitrógeno.",
-        "image_path": "images/repollos_blanco_colorado.jpg"
+        "image_path": "images/repollos_blanco_colorado.jpg",
+        "id": 20
     },
     {
         "name": "Zanahoria",
@@ -373,7 +393,8 @@
         ],
         "stock": 100,
         "observations": "Mantener la humedad constante durante la germinación.",
-        "image_path": "images/zanahoria.jpg"
+        "image_path": "images/zanahoria.jpg",
+        "id": 21
     },
     {
         "name": "Zapallos (Anco / Plomo / Zucchini / Mix)",
@@ -388,7 +409,8 @@
         ],
         "stock": 13,
         "observations": "Incluye mix de zapallos (30 semillas extra).",
-        "image_path": "images/zapallos_anco_plomo_zucchini_mix.jpg"
+        "image_path": "images/zapallos_anco_plomo_zucchini_mix.jpg",
+        "id": 22
     },
     {
         "name": "Frutos (Frutilla / Arándano / Frambuesa / Uva)",
@@ -402,7 +424,8 @@
         ],
         "stock": 200,
         "observations": "Plantas perennes (stock de seguridad 50 c/u).",
-        "image_path": "images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg"
+        "image_path": "images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg",
+        "id": 23
     },
     {
         "name": "Arvejilla (Flor)",
@@ -417,7 +440,8 @@
         ],
         "stock": 40,
         "observations": "Trepadora de invierno muy perfumada y decorativa.",
-        "image_path": "images/arvejilla.png"
+        "image_path": "images/arvejilla.png",
+        "id": 24
     },
     {
         "name": "Espinaca Frutilla (Blitum capitatum)",
@@ -432,7 +456,8 @@
         "harvest_days": 65,
         "removal_type": "Siembra directa superficial (semilla muy fina) o almácigo",
         "stock": 11,
-        "observations": "Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano."
+        "observations": "Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano.",
+        "id": 25
     },
     {
         "name": "Habas",
@@ -448,7 +473,8 @@
         "harvest_days": 105,
         "removal_type": "Siembra directa (a 3-5 cm de profundidad)",
         "stock": 12,
-        "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas."
+        "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas.",
+        "id": 26
     },
     {
         "name": "Tomate cherry Mini Kumato",
@@ -462,7 +488,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Variedad oscura, muy dulce."
+        "observations": "Variedad oscura, muy dulce.",
+        "id": 27
     },
     {
         "name": "Tomate cherry Minibell Azul",
@@ -476,7 +503,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Requiere sol directo para desarrollar el tono azul/violáceo."
+        "observations": "Requiere sol directo para desarrollar el tono azul/violáceo.",
+        "id": 28
     },
     {
         "name": "Tomate cherry Cereza Sueco",
@@ -490,7 +518,8 @@
         "harvest_days": 75,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Muy productivo."
+        "observations": "Muy productivo.",
+        "id": 29
     },
     {
         "name": "Tomate cherry Dátil Amarillo",
@@ -504,7 +533,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Sabor muy dulce y forma alargada."
+        "observations": "Sabor muy dulce y forma alargada.",
+        "id": 30
     },
     {
         "name": "Tomate cherry Perita Naranja",
@@ -518,7 +548,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Color vibrante y pulpa firme."
+        "observations": "Color vibrante y pulpa firme.",
+        "id": 31
     },
     {
         "name": "Tomate redondo racimo",
@@ -532,7 +563,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Ideal para ensaladas. Requiere buen tutorado."
+        "observations": "Ideal para ensaladas. Requiere buen tutorado.",
+        "id": 32
     },
     {
         "name": "Tomate perita (Río Grande)",
@@ -546,7 +578,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Excelente para salsas y conservas. Determinada (no requiere desbrote estricto)."
+        "observations": "Excelente para salsas y conservas. Determinada (no requiere desbrote estricto).",
+        "id": 33
     },
     {
         "name": "Mix Tomates reliquia",
@@ -560,7 +593,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Variedades antiguas con gran sabor y diferentes colores/formas."
+        "observations": "Variedades antiguas con gran sabor y diferentes colores/formas.",
+        "id": 34
     },
     {
         "name": "Morrón rojo (California)",
@@ -574,7 +608,8 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Pimiento dulce clásico, grueso y carnoso."
+        "observations": "Pimiento dulce clásico, grueso y carnoso.",
+        "id": 35
     },
     {
         "name": "Mix Ajíes picantes",
@@ -588,7 +623,8 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Variedades picantes variadas. Manejar semillas con cuidado."
+        "observations": "Variedades picantes variadas. Manejar semillas con cuidado.",
+        "id": 36
     },
     {
         "name": "Berenjena (Florida Market)",
@@ -602,7 +638,8 @@
         "harvest_days": 110,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Frutos grandes y oscuros. Sensible a heladas."
+        "observations": "Frutos grandes y oscuros. Sensible a heladas.",
+        "id": 37
     },
     {
         "name": "Escarola (hoja fina)",
@@ -618,7 +655,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo o directa",
         "stock": 1,
-        "observations": "Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor."
+        "observations": "Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor.",
+        "id": 38
     },
     {
         "name": "Copete gigante",
@@ -632,7 +670,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Excelente flor para la huerta, repele nemátodos y atrae polinizadores."
+        "observations": "Excelente flor para la huerta, repele nemátodos y atrae polinizadores.",
+        "id": 39
     },
     {
         "name": "Alelí de Mahón",
@@ -648,7 +687,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo",
         "stock": 1,
-        "observations": "Flor aromática de colores intensos."
+        "observations": "Flor aromática de colores intensos.",
+        "id": 40
     },
     {
         "name": "Caléndula",
@@ -664,7 +704,8 @@
         "harvest_days": 60,
         "removal_type": "Directa o almácigo",
         "stock": 1,
-        "observations": "Flor comestible y medicinal. Atrae polinizadores y repele pulgones."
+        "observations": "Flor comestible y medicinal. Atrae polinizadores y repele pulgones.",
+        "id": 41
     },
     {
         "name": "Orégano",
@@ -681,7 +722,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo o división",
         "stock": 40,
-        "observations": "Perenne. Muy rústico y fácil de cultivar."
+        "observations": "Perenne. Muy rústico y fácil de cultivar.",
+        "id": 42
     },
     {
         "name": "Albahaca genovesa",
@@ -695,7 +737,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Sensible a heladas. Pizcar flores para alargar ciclo."
+        "observations": "Sensible a heladas. Pizcar flores para alargar ciclo.",
+        "id": 43
     },
     {
         "name": "Albahaca morada",
@@ -709,7 +752,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo",
         "stock": 20,
-        "observations": "Aromática y muy decorativa. Sensible al frío."
+        "observations": "Aromática y muy decorativa. Sensible al frío.",
+        "id": 44
     },
     {
         "name": "Tomillo",
@@ -725,7 +769,8 @@
         "harvest_days": 90,
         "removal_type": "Almácigo",
         "stock": 50,
-        "observations": "Perenne. Requiere buen drenaje, no tolera encharcamiento."
+        "observations": "Perenne. Requiere buen drenaje, no tolera encharcamiento.",
+        "id": 45
     },
     {
         "name": "Cilantro",
@@ -741,7 +786,8 @@
         "harvest_days": 40,
         "removal_type": "Directa",
         "stock": 20,
-        "observations": "Tiende a espigar rápido con calor. Sembrar escalonado."
+        "observations": "Tiende a espigar rápido con calor. Sembrar escalonado.",
+        "id": 46
     },
     {
         "name": "Perejil liso",
@@ -757,7 +803,8 @@
         "harvest_days": 70,
         "removal_type": "Directa (remojar semillas 24h)",
         "stock": 30,
-        "observations": "Cosecha continua de hojas externas."
+        "observations": "Cosecha continua de hojas externas.",
+        "id": 47
     },
     {
         "name": "Perejil rizado",
@@ -773,7 +820,8 @@
         "harvest_days": 70,
         "removal_type": "Directa (remojar semillas 24h)",
         "stock": 20,
-        "observations": "Más decorativo y textura rizada."
+        "observations": "Más decorativo y textura rizada.",
+        "id": 48
     },
     {
         "name": "Melisa",
@@ -789,7 +837,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Perenne. Crece rápido y tiene un rico aroma a limón."
+        "observations": "Perenne. Crece rápido y tiene un rico aroma a limón.",
+        "id": 49
     },
     {
         "name": "Anís verde",
@@ -802,7 +851,8 @@
         "harvest_days": 120,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Semillas aromáticas usadas en repostería."
+        "observations": "Semillas aromáticas usadas en repostería.",
+        "id": 50
     },
     {
         "name": "Fenogreco",
@@ -817,7 +867,8 @@
         "harvest_days": 90,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles."
+        "observations": "Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles.",
+        "id": 51
     },
     {
         "name": "Manzanilla",
@@ -832,7 +883,8 @@
         "harvest_days": 70,
         "removal_type": "Directa o almácigo superficial",
         "stock": 50,
-        "observations": "Flores medicinales. Fácil resiembra."
+        "observations": "Flores medicinales. Fácil resiembra.",
+        "id": 52
     },
     {
         "name": "Eneldo",
@@ -847,7 +899,8 @@
         "harvest_days": 60,
         "removal_type": "Directa",
         "stock": 20,
-        "observations": "Atrae polinizadores. No trasplantar, raíz pivotante."
+        "observations": "Atrae polinizadores. No trasplantar, raíz pivotante.",
+        "id": 53
     },
     {
         "name": "Ciboulette",
@@ -864,7 +917,8 @@
         "harvest_days": 60,
         "removal_type": "Directa o almácigo",
         "stock": 15,
-        "observations": "Cosecha cortando a nivel del suelo. Perenne."
+        "observations": "Cosecha cortando a nivel del suelo. Perenne.",
+        "id": 54
     },
     {
         "name": "Mejorana",
@@ -880,7 +934,8 @@
         "harvest_days": 80,
         "removal_type": "Almácigo",
         "stock": 40,
-        "observations": "Perenne. Aroma suave y dulce, similar al orégano."
+        "observations": "Perenne. Aroma suave y dulce, similar al orégano.",
+        "id": 55
     },
     {
         "name": "Mostaza",
@@ -895,7 +950,8 @@
         "harvest_days": 40,
         "removal_type": "Directa",
         "stock": 50,
-        "observations": "Hojas picantes para ensalada y semillas para condimento."
+        "observations": "Hojas picantes para ensalada y semillas para condimento.",
+        "id": 56
     },
     {
         "name": "Lechuga romana verde",
@@ -912,7 +968,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 57
     },
     {
         "name": "Lechuga mantecosa",
@@ -929,7 +986,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 58
     },
     {
         "name": "Melón",
@@ -943,7 +1001,8 @@
         "harvest_days": 100,
         "removal_type": "Directa (a golpes)",
         "stock": 15,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 59
     },
     {
         "name": "Repollo colorado",
@@ -958,7 +1017,8 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 60
     },
     {
         "name": "Lechuga morada",
@@ -975,7 +1035,8 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 61
     },
     {
         "name": "Repollo blanco",
@@ -990,7 +1051,8 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 62
     },
     {
         "name": "Sandía",
@@ -1004,7 +1066,8 @@
         "harvest_days": 100,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 63
     },
     {
         "name": "Zucchini",
@@ -1018,7 +1081,8 @@
         "harvest_days": 60,
         "removal_type": "Directa",
         "stock": 5,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 64
     },
     {
         "name": "Zapallo anco",
@@ -1032,7 +1096,8 @@
         "harvest_days": 120,
         "removal_type": "Directa",
         "stock": 5,
-        "observations": "Actualizado desde lista OCR."
+        "observations": "Actualizado desde lista OCR.",
+        "id": 65
     },
     {
         "name": "Mix zapallos y calabacines",
@@ -1046,7 +1111,8 @@
         "harvest_days": 120,
         "removal_type": "Directa",
         "stock": 30,
-        "observations": "Actualizado desde lista."
+        "observations": "Actualizado desde lista.",
+        "id": 66
     },
     {
         "name": "Zapallito de tronco",
@@ -1060,6 +1126,7 @@
         "harvest_days": 60,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Actualizado desde lista."
+        "observations": "Actualizado desde lista.",
+        "id": 67
     }
 ]

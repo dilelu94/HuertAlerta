@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HuertAlerta - Fichas de Cultivo</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f0f4f1; color: #2d3748; margin: 0; padding: 16px; }
+    .container { max-width: 680px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 24px; }
+    h1 { color: #2e7d32; margin-bottom: 6px; }
+    p.sub { color: #666; margin-top: 0; }
+    .card { background: white; border-radius: 14px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); scroll-margin-top: 20px; border: 1px solid #e2e8f0; }
+    .card h2 { margin-top: 0; color: #1b5e20; display: flex; justify-content: space-between; align-items: center; font-size: 1.3em; }
+    .card img { width: 100%; border-radius: 10px; max-height: 380px; object-fit: cover; display: block; margin: 14px 0; background: #e8ede9; }
+    .tag { background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 20px; font-size: 0.65em; font-weight: 600; text-transform: uppercase; }
+    ul { list-style: none; padding: 0; margin: 12px 0; }
+    li { padding: 6px 0; border-bottom: 1px solid #f0f2f5; font-size: 0.95em; }
+    li:last-child { border-bottom: none; }
+    blockquote { background: #f1f8e9; border-left: 4px solid #4caf50; margin: 14px 0 0 0; padding: 12px 14px; border-radius: 0 8px 8px 0; font-size: 0.92em; color: #33691e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌱 HuertAlerta</h1>
+      <p class="sub">Guía de cultivo e inventario de semillas</p>
+    </header>
+
+    <div class="card" id="p1">
+      <h2>Rúcula <span class="tag">Brassicaceae</span></h2>
+      <img src="images/rúcula.png" alt="Rúcula">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~40 días</li>
+        <li>📦 <strong>Stock:</strong> 2000 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o al florecer</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Gran cantidad disponible; ideal para siembras densas.</blockquote>
+    </div>
+
+    <div class="card" id="p2">
+      <h2>Espinaca <span class="tag">Amaranthaceae</span></h2>
+      <img src="images/espinaca.jpg" alt="Espinaca">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~50 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o al florecer</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Prefiere el frío; sembrar en otoño para mejores resultados.</blockquote>
+    </div>
+
+    <div class="card" id="p3">
+      <h2>Acelga <span class="tag">Amaranthaceae</span></h2>
+      <img src="images/acelga.jpg" alt="Acelga">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~70 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo (Corte de hojas)</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Cosechar las hojas externas para que siga produciendo.</blockquote>
+    </div>
+
+    <div class="card" id="p4">
+      <h2>Achicoria Radicheta <span class="tag">Asteraceae</span></h2>
+      <img src="images/achicoria_radicheta.jpg" alt="Achicoria Radicheta">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~45 días</li>
+        <li>📦 <strong>Stock:</strong> 100 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Muy rústica; rebrota con fuerza después de cada corte.</blockquote>
+    </div>
+
+    <div class="card" id="p5">
+      <h2>Escarola <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Ideal para ensaladas de invierno; soporta bien el frío.</blockquote>
+    </div>
+
+    <div class="card" id="p6">
+      <h2>Apio <span class="tag">Apiaceae</span></h2>
+      <img src="images/apio.jpg" alt="Apio">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~130 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Requiere suelo muy húmedo y rico en nutrientes.</blockquote>
+    </div>
+
+    <div class="card" id="p7">
+      <h2>Arveja <span class="tag">Fabaceae</span></h2>
+      <img src="images/arveja.jpg" alt="Arveja">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 8 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Abril, Mayo, Junio, Julio, Agosto</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Plantar con tutores para que trepen.</blockquote>
+    </div>
+
+    <div class="card" id="p8">
+      <h2>Brócoli <span class="tag">Brassicaceae</span></h2>
+      <img src="images/brócoli.jpg" alt="Brócoli">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Controlar las orugas de la col frecuentemente.</blockquote>
+    </div>
+
+    <div class="card" id="p9">
+      <h2>Coliflor <span class="tag">Brassicaceae</span></h2>
+      <img src="images/coliflor.jpg" alt="Coliflor">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~110 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Tapar la pella con sus propias hojas para mantenerla blanca.</blockquote>
+    </div>
+
+    <div class="card" id="p10">
+      <h2>Cebolla de Verdeo <span class="tag">Amaryllidaceae</span></h2>
+      <img src="images/cebolla_de_verdeo.jpg" alt="Cebolla de Verdeo">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 40 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o desplante</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Se puede usar el bulbo y la hoja.</blockquote>
+    </div>
+
+    <div class="card" id="p11">
+      <h2>Cebolla Morada / Valenciana <span class="tag">Amaryllidaceae</span></h2>
+      <img src="images/cebolla_morada.png" alt="Cebolla Morada / Valenciana">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~180 días</li>
+        <li>📦 <strong>Stock:</strong> 80 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Cosechar cuando el cuello de la planta se dobla solo.</blockquote>
+    </div>
+
+    <div class="card" id="p12">
+      <h2>Chaucha <span class="tag">Fabaceae</span></h2>
+      <img src="images/chaucha.jpg" alt="Chaucha">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~70 días</li>
+        <li>📦 <strong>Stock:</strong> 12 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Siembra directa cuando ya no hay riesgo de heladas.</blockquote>
+    </div>
+
+    <div class="card" id="p13">
+      <h2>Hinojo <span class="tag">Apiaceae</span></h2>
+      <img src="images/hinojo.jpg" alt="Hinojo">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~110 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Evitar plantar cerca de tomates o legumbres.</blockquote>
+    </div>
+
+    <div class="card" id="p14">
+      <h2>Maíz Dulce <span class="tag">Poaceae</span></h2>
+      <img src="images/maíz_dulce.jpg" alt="Maíz Dulce">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 12 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Plantar en bloques para asegurar una buena polinización.</blockquote>
+    </div>
+
+    <div class="card" id="p15">
+      <h2>Melón / Sandía (Crimson Sweet) <span class="tag">Cucurbitaceae</span></h2>
+      <img src="images/melón_sandía_crimson_sweet.jpg" alt="Melón / Sandía (Crimson Sweet)">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 10 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por temporada</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Requieren mucho espacio para sus guías y sol pleno.</blockquote>
+    </div>
+
+    <div class="card" id="p16">
+      <h2>Pepino <span class="tag">Cucurbitaceae</span></h2>
+      <img src="images/pepino.jpg" alt="Pepino">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Se puede cultivar en forma rastrera o trepadora.</blockquote>
+    </div>
+
+    <div class="card" id="p17">
+      <h2>Puerro <span class="tag">Amaryllidaceae</span></h2>
+      <img src="images/puerro.jpg" alt="Puerro">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Aporcar (cubrir con tierra) la base para blanquear el tallo.</blockquote>
+    </div>
+
+    <div class="card" id="p18">
+      <h2>Rabanito <span class="tag">Brassicaceae</span></h2>
+      <img src="images/rabanito.jpg" alt="Rabanito">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~30 días</li>
+        <li>📦 <strong>Stock:</strong> 40 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> La hortaliza más rápida; sembrar poco pero seguido.</blockquote>
+    </div>
+
+    <div class="card" id="p19">
+      <h2>Remolacha <span class="tag">Amaranthaceae</span></h2>
+      <img src="images/remolacha.jpg" alt="Remolacha">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 20 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Las hojas jóvenes también son comestibles en ensalada.</blockquote>
+    </div>
+
+    <div class="card" id="p20">
+      <h2>Repollos (Blanco / Colorado) <span class="tag">Brassicaceae</span></h2>
+      <img src="images/repollos_blanco_colorado.jpg" alt="Repollos (Blanco / Colorado)">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~110 días</li>
+        <li>📦 <strong>Stock:</strong> 60 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Necesita un suelo firme y buen aporte de nitrógeno.</blockquote>
+    </div>
+
+    <div class="card" id="p21">
+      <h2>Zanahoria <span class="tag">Apiaceae</span></h2>
+      <img src="images/zanahoria.jpg" alt="Zanahoria">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 100 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Mantener la humedad constante durante la germinación.</blockquote>
+    </div>
+
+    <div class="card" id="p22">
+      <h2>Zapallos (Anco / Plomo / Zucchini / Mix) <span class="tag">Cucurbitaceae</span></h2>
+      <img src="images/zapallos_anco_plomo_zucchini_mix.jpg" alt="Zapallos (Anco / Plomo / Zucchini / Mix)">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 13 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por temporada</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Incluye mix de zapallos (30 semillas extra).</blockquote>
+    </div>
+
+    <div class="card" id="p23">
+      <h2>Frutos (Frutilla / Arándano / Frambuesa / Uva) <span class="tag">Rosaceae/Ericaceae/Vitaceae</span></h2>
+      <img src="images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg" alt="Frutos (Frutilla / Arándano / Frambuesa / Uva)">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~365 días</li>
+        <li>📦 <strong>Stock:</strong> 200 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Mayo, Junio, Julio</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Perenne</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Plantas perennes (stock de seguridad 50 c/u).</blockquote>
+    </div>
+
+    <div class="card" id="p24">
+      <h2>Arvejilla (Flor) <span class="tag">Fabaceae</span></h2>
+      <img src="images/arvejilla.png" alt="Arvejilla (Flor)">
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 40 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Al florecer</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Trepadora de invierno muy perfumada y decorativa.</blockquote>
+    </div>
+
+    <div class="card" id="p25">
+      <h2>Espinaca Frutilla (Blitum capitatum) <span class="tag">Amaranthaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~65 días</li>
+        <li>📦 <strong>Stock:</strong> 11 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Siembra directa superficial (semilla muy fina) o almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano.</blockquote>
+    </div>
+
+    <div class="card" id="p26">
+      <h2>Habas <span class="tag">Fabaceae (Leguminosas)</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~105 días</li>
+        <li>📦 <strong>Stock:</strong> 12 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Siembra directa (a 3-5 cm de profundidad)</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas.</blockquote>
+    </div>
+
+    <div class="card" id="p27">
+      <h2>Tomate cherry Mini Kumato <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Variedad oscura, muy dulce.</blockquote>
+    </div>
+
+    <div class="card" id="p28">
+      <h2>Tomate cherry Minibell Azul <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Requiere sol directo para desarrollar el tono azul/violáceo.</blockquote>
+    </div>
+
+    <div class="card" id="p29">
+      <h2>Tomate cherry Cereza Sueco <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~75 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Muy productivo.</blockquote>
+    </div>
+
+    <div class="card" id="p30">
+      <h2>Tomate cherry Dátil Amarillo <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Sabor muy dulce y forma alargada.</blockquote>
+    </div>
+
+    <div class="card" id="p31">
+      <h2>Tomate cherry Perita Naranja <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Color vibrante y pulpa firme.</blockquote>
+    </div>
+
+    <div class="card" id="p32">
+      <h2>Tomate redondo racimo <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Ideal para ensaladas. Requiere buen tutorado.</blockquote>
+    </div>
+
+    <div class="card" id="p33">
+      <h2>Tomate perita (Río Grande) <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Excelente para salsas y conservas. Determinada (no requiere desbrote estricto).</blockquote>
+    </div>
+
+    <div class="card" id="p34">
+      <h2>Mix Tomates reliquia <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Variedades antiguas con gran sabor y diferentes colores/formas.</blockquote>
+    </div>
+
+    <div class="card" id="p35">
+      <h2>Morrón rojo (California) <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Pimiento dulce clásico, grueso y carnoso.</blockquote>
+    </div>
+
+    <div class="card" id="p36">
+      <h2>Mix Ajíes picantes <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Variedades picantes variadas. Manejar semillas con cuidado.</blockquote>
+    </div>
+
+    <div class="card" id="p37">
+      <h2>Berenjena (Florida Market) <span class="tag">Solanaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~110 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Frutos grandes y oscuros. Sensible a heladas.</blockquote>
+    </div>
+
+    <div class="card" id="p38">
+      <h2>Escarola (hoja fina) <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor.</blockquote>
+    </div>
+
+    <div class="card" id="p39">
+      <h2>Copete gigante <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Excelente flor para la huerta, repele nemátodos y atrae polinizadores.</blockquote>
+    </div>
+
+    <div class="card" id="p40">
+      <h2>Alelí de Mahón <span class="tag">Brassicaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Flor aromática de colores intensos.</blockquote>
+    </div>
+
+    <div class="card" id="p41">
+      <h2>Caléndula <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 1 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Flor comestible y medicinal. Atrae polinizadores y repele pulgones.</blockquote>
+    </div>
+
+    <div class="card" id="p42">
+      <h2>Orégano <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 40 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Febrero, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o división</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Perenne. Muy rústico y fácil de cultivar.</blockquote>
+    </div>
+
+    <div class="card" id="p43">
+      <h2>Albahaca genovesa <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Sensible a heladas. Pizcar flores para alargar ciclo.</blockquote>
+    </div>
+
+    <div class="card" id="p44">
+      <h2>Albahaca morada <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 20 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Aromática y muy decorativa. Sensible al frío.</blockquote>
+    </div>
+
+    <div class="card" id="p45">
+      <h2>Tomillo <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Perenne. Requiere buen drenaje, no tolera encharcamiento.</blockquote>
+    </div>
+
+    <div class="card" id="p46">
+      <h2>Cilantro <span class="tag">Apiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~40 días</li>
+        <li>📦 <strong>Stock:</strong> 20 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril, Mayo</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Tiende a espigar rápido con calor. Sembrar escalonado.</blockquote>
+    </div>
+
+    <div class="card" id="p47">
+      <h2>Perejil liso <span class="tag">Apiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~70 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Febrero, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (remojar semillas 24h)</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Cosecha continua de hojas externas.</blockquote>
+    </div>
+
+    <div class="card" id="p48">
+      <h2>Perejil rizado <span class="tag">Apiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~70 días</li>
+        <li>📦 <strong>Stock:</strong> 20 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Febrero, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (remojar semillas 24h)</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Más decorativo y textura rizada.</blockquote>
+    </div>
+
+    <div class="card" id="p49">
+      <h2>Melisa <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Perenne. Crece rápido y tiene un rico aroma a limón.</blockquote>
+    </div>
+
+    <div class="card" id="p50">
+      <h2>Anís verde <span class="tag">Apiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Semillas aromáticas usadas en repostería.</blockquote>
+    </div>
+
+    <div class="card" id="p51">
+      <h2>Fenogreco <span class="tag">Fabaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~90 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles.</blockquote>
+    </div>
+
+    <div class="card" id="p52">
+      <h2>Manzanilla <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~70 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo superficial</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Flores medicinales. Fácil resiembra.</blockquote>
+    </div>
+
+    <div class="card" id="p53">
+      <h2>Eneldo <span class="tag">Apiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 20 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Atrae polinizadores. No trasplantar, raíz pivotante.</blockquote>
+    </div>
+
+    <div class="card" id="p54">
+      <h2>Ciboulette <span class="tag">Amaryllidaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Febrero, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Cosecha cortando a nivel del suelo. Perenne.</blockquote>
+    </div>
+
+    <div class="card" id="p55">
+      <h2>Mejorana <span class="tag">Lamiaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~80 días</li>
+        <li>📦 <strong>Stock:</strong> 40 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Perenne. Aroma suave y dulce, similar al orégano.</blockquote>
+    </div>
+
+    <div class="card" id="p56">
+      <h2>Mostaza <span class="tag">Brassicaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~40 días</li>
+        <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Hojas picantes para ensalada y semillas para condimento.</blockquote>
+    </div>
+
+    <div class="card" id="p57">
+      <h2>Lechuga romana verde <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 80 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p58">
+      <h2>Lechuga mantecosa <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 80 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p59">
+      <h2>Melón <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (a golpes)</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p60">
+      <h2>Repollo colorado <span class="tag">Brassicaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p61">
+      <h2>Lechuga morada <span class="tag">Asteraceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 80 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p62">
+      <h2>Repollo blanco <span class="tag">Brassicaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p63">
+      <h2>Sandía <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~100 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p64">
+      <h2>Zucchini <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 5 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p65">
+      <h2>Zapallo anco <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 5 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+    </div>
+
+    <div class="card" id="p66">
+      <h2>Mix zapallos y calabacines <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~120 días</li>
+        <li>📦 <strong>Stock:</strong> 30 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista.</blockquote>
+    </div>
+
+    <div class="card" id="p67">
+      <h2>Zapallito de tronco <span class="tag">Cucurbitaceae</span></h2>
+      
+      <ul>
+        <li>🕒 <strong>Tiempo a la cosecha:</strong> ~60 días</li>
+        <li>📦 <strong>Stock:</strong> 15 semillas / unidades</li>
+        <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
+        <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
+      </ul>
+      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista.</blockquote>
+    </div>
+
+  </div>
+</body>
+</html>
