@@ -73,37 +73,14 @@ def main():
 
     # Mensaje de cabecera con la lista de todo lo que se puede sembrar
     seed_list_text = "\n".join([f"• {s['name']}" for s in plantable_seeds])
-    header = f"🌱 *¡Es viernes de siembra!*\nMes: {month_name}\n\n*Lo que puedes sembrar ahora es:*\n{seed_list_text}\n\nA continuación, los detalles de cada una:"
+    header = (
+        f"🌱 *¡Es viernes de siembra!*\n"
+        f"Mes: *{month_name}*\n\n"
+        f"*Lo que puedes sembrar ahora es ({len(plantable_seeds)} variedades):*\n\n"
+        f"{seed_list_text}\n\n"
+        f"💬 _Escribe el nombre de cualquier planta (por ejemplo: `pepino`, `tomate`) para ver su foto, cosecha, desplante y observaciones._"
+    )
     send_telegram_message(token, chat_id, header)
-
-    # Enviar cada semilla con su foto
-    for s in plantable_seeds:
-        # Solo mostrar familia si es botánica y NO está contenida en el nombre
-        family_clean = s['family'].lower()
-        name_clean = s['name'].lower()
-        
-        show_family = True
-        if family_clean in name_clean:
-            show_family = False
-        
-        family_display = f" ({s['family']})" if show_family else ""
-        
-        caption = (
-            f"🌿 *{s['name']}*{family_display}\n"
-            f"🕒 *Cosecha:* ~{s['harvest_days']} días\n"
-            f"📦 *Stock:* {s['stock']} unidades\n"
-            f"⚠️ *Desplante:* {s['removal_type']}\n"
-            f"📝 _'{s['observations']}'_"
-        )
-        # Usar image_path si existe, sino fallback a image_url
-        img_source = s.get('image_path') or s.get('image_url')
-        if img_source and (os.path.exists(img_source) or img_source.startswith('http://') or img_source.startswith('https://')):
-            send_telegram_photo(token, chat_id, img_source, caption)
-        else:
-            send_telegram_message(token, chat_id, caption)
-        
-        # Pausa de 2 segundos para no saturar el API de Telegram y evitar errores 429
-        time.sleep(2)
 
 if __name__ == "__main__":
     main()
