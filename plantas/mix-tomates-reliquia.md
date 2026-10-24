@@ -1,5 +1,7 @@
 # Mix Tomates reliquia
 
+![Mix Tomates reliquia](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

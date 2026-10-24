@@ -1,5 +1,7 @@
 # Lechuga morada
 
+![Lechuga morada](../images/lechuga_crespa.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

@@ -1,5 +1,7 @@
 # Tomate cherry Minibell Azul
 
+![Tomate cherry Minibell Azul](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

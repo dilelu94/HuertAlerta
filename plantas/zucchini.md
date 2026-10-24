@@ -1,5 +1,7 @@
 # Zucchini
 
+![Zucchini](../images/zucchini.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Cucurbitaceae

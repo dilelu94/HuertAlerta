@@ -1,5 +1,7 @@
 # Escarola
 
+![Escarola](../images/achicoria_radicheta.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

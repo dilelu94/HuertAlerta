@@ -1,5 +1,7 @@
 # Tomate cherry Dátil Amarillo
 
+![Tomate cherry Dátil Amarillo](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

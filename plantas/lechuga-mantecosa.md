@@ -1,5 +1,7 @@
 # Lechuga mantecosa
 
+![Lechuga mantecosa](../images/lechuga_crespa.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

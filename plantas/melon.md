@@ -1,5 +1,7 @@
 # Melón
 
+![Melón](../images/melón_sandía_crimson_sweet.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Cucurbitaceae

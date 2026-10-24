@@ -1,5 +1,7 @@
 # Tomate cherry Perita Naranja
 
+![Tomate cherry Perita Naranja](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

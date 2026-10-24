@@ -1,5 +1,7 @@
 # Melisa
 
+![Melisa](../images/medicinales_melisa_manzanilla_fenogreco.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Lamiaceae

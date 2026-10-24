@@ -1,5 +1,7 @@
 # Tomate perita (Río Grande)
 
+![Tomate perita (Río Grande)](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

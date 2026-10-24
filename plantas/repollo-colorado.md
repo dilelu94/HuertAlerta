@@ -1,5 +1,7 @@
 # Repollo colorado
 
+![Repollo colorado](../images/repollos_blanco_colorado.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Brassicaceae

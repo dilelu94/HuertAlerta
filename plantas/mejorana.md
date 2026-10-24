@@ -1,5 +1,7 @@
 # Mejorana
 
+![Mejorana](../images/aromáticas_orégano_tomillo_mejorana.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Lamiaceae

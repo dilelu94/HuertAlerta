@@ -1,5 +1,7 @@
 # Mostaza
 
+![Mostaza](../images/especiales_ciboulette_mostaza_blanca.png)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Brassicaceae

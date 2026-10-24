@@ -1,5 +1,7 @@
 # Tomate cherry Mini Kumato
 
+![Tomate cherry Mini Kumato](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

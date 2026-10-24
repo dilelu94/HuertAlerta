@@ -1,5 +1,7 @@
 # Escarola (hoja fina)
 
+![Escarola (hoja fina)](../images/achicoria_radicheta.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

@@ -1,5 +1,7 @@
 # Lechuga romana verde
 
+![Lechuga romana verde](../images/lechuga_crespa.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

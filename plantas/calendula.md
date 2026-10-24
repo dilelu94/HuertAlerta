@@ -1,5 +1,7 @@
 # Caléndula
 
+![Caléndula](../images/flores_caléndula_copete_alhelí.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Asteraceae

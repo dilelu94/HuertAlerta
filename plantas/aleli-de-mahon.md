@@ -1,5 +1,7 @@
 # Alelí de Mahón
 
+![Alelí de Mahón](../images/flores_caléndula_copete_alhelí.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Brassicaceae

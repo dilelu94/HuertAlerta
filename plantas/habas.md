@@ -1,5 +1,7 @@
 # Habas
 
+![Habas](../images/arveja.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Fabaceae (Leguminosas)

@@ -1,5 +1,7 @@
 # Eneldo
 
+![Eneldo](../images/aromáticas_cilantro_eneldo_anís_verde.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Apiaceae

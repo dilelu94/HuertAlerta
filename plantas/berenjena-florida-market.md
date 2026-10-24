@@ -1,5 +1,7 @@
 # Berenjena (Florida Market)
 
+![Berenjena (Florida Market)](../images/berenjena.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

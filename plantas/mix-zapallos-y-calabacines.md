@@ -1,5 +1,7 @@
 # Mix zapallos y calabacines
 
+![Mix zapallos y calabacines](../images/zucchini.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Cucurbitaceae

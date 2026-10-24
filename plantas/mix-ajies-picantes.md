@@ -1,5 +1,7 @@
 # Mix Ajíes picantes
 
+![Mix Ajíes picantes](../images/morron_rojo.png)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

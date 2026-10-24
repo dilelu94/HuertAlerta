@@ -1,5 +1,7 @@
 # Zapallito de tronco
 
+![Zapallito de tronco](../images/zucchini.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Cucurbitaceae

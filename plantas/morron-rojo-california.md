@@ -1,5 +1,7 @@
 # Morrón rojo (California)
 
+![Morrón rojo (California)](../images/morron_rojo.png)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

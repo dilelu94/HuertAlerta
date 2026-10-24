@@ -102,7 +102,7 @@
         ],
         "stock": 50,
         "observations": "Ideal para ensaladas de invierno; soporta bien el frío.",
-        "image_path": null,
+        "image_path": "images/achicoria_radicheta.jpg",
         "id": 5
     },
     {
@@ -457,7 +457,8 @@
         "removal_type": "Siembra directa superficial (semilla muy fina) o almácigo",
         "stock": 11,
         "observations": "Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano.",
-        "id": 25
+        "id": 25,
+        "image_path": "images/espinaca.jpg"
     },
     {
         "name": "Habas",
@@ -474,7 +475,8 @@
         "removal_type": "Siembra directa (a 3-5 cm de profundidad)",
         "stock": 12,
         "observations": "Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas.",
-        "id": 26
+        "id": 26,
+        "image_path": "images/arveja.jpg"
     },
     {
         "name": "Tomate cherry Mini Kumato",
@@ -489,7 +491,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Variedad oscura, muy dulce.",
-        "id": 27
+        "id": 27,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate cherry Minibell Azul",
@@ -504,7 +507,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Requiere sol directo para desarrollar el tono azul/violáceo.",
-        "id": 28
+        "id": 28,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate cherry Cereza Sueco",
@@ -519,7 +523,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Muy productivo.",
-        "id": 29
+        "id": 29,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate cherry Dátil Amarillo",
@@ -534,7 +539,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Sabor muy dulce y forma alargada.",
-        "id": 30
+        "id": 30,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate cherry Perita Naranja",
@@ -549,7 +555,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Color vibrante y pulpa firme.",
-        "id": 31
+        "id": 31,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate redondo racimo",
@@ -564,7 +571,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Ideal para ensaladas. Requiere buen tutorado.",
-        "id": 32
+        "id": 32,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Tomate perita (Río Grande)",
@@ -579,7 +587,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Excelente para salsas y conservas. Determinada (no requiere desbrote estricto).",
-        "id": 33
+        "id": 33,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Mix Tomates reliquia",
@@ -594,7 +603,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Variedades antiguas con gran sabor y diferentes colores/formas.",
-        "id": 34
+        "id": 34,
+        "image_path": "images/tomate.jpg"
     },
     {
         "name": "Morrón rojo (California)",
@@ -609,7 +619,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Pimiento dulce clásico, grueso y carnoso.",
-        "id": 35
+        "id": 35,
+        "image_path": "images/morron_rojo.png"
     },
     {
         "name": "Mix Ajíes picantes",
@@ -624,7 +635,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Variedades picantes variadas. Manejar semillas con cuidado.",
-        "id": 36
+        "id": 36,
+        "image_path": "images/morron_rojo.png"
     },
     {
         "name": "Berenjena (Florida Market)",
@@ -639,7 +651,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Frutos grandes y oscuros. Sensible a heladas.",
-        "id": 37
+        "id": 37,
+        "image_path": "images/berenjena.jpg"
     },
     {
         "name": "Escarola (hoja fina)",
@@ -656,7 +669,8 @@
         "removal_type": "Almácigo o directa",
         "stock": 1,
         "observations": "Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor.",
-        "id": 38
+        "id": 38,
+        "image_path": "images/achicoria_radicheta.jpg"
     },
     {
         "name": "Copete gigante",
@@ -671,7 +685,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Excelente flor para la huerta, repele nemátodos y atrae polinizadores.",
-        "id": 39
+        "id": 39,
+        "image_path": "images/flores_caléndula_copete_alhelí.jpg"
     },
     {
         "name": "Alelí de Mahón",
@@ -688,7 +703,8 @@
         "removal_type": "Almácigo",
         "stock": 1,
         "observations": "Flor aromática de colores intensos.",
-        "id": 40
+        "id": 40,
+        "image_path": "images/flores_caléndula_copete_alhelí.jpg"
     },
     {
         "name": "Caléndula",
@@ -705,7 +721,8 @@
         "removal_type": "Directa o almácigo",
         "stock": 1,
         "observations": "Flor comestible y medicinal. Atrae polinizadores y repele pulgones.",
-        "id": 41
+        "id": 41,
+        "image_path": "images/flores_caléndula_copete_alhelí.jpg"
     },
     {
         "name": "Orégano",
@@ -723,7 +740,8 @@
         "removal_type": "Almácigo o división",
         "stock": 40,
         "observations": "Perenne. Muy rústico y fácil de cultivar.",
-        "id": 42
+        "id": 42,
+        "image_path": "images/aromáticas_orégano_tomillo_mejorana.jpg"
     },
     {
         "name": "Albahaca genovesa",
@@ -738,7 +756,8 @@
         "removal_type": "Almácigo",
         "stock": 30,
         "observations": "Sensible a heladas. Pizcar flores para alargar ciclo.",
-        "id": 43
+        "id": 43,
+        "image_path": "images/albahacas_genovesa_morada.jpg"
     },
     {
         "name": "Albahaca morada",
@@ -753,7 +772,8 @@
         "removal_type": "Almácigo",
         "stock": 20,
         "observations": "Aromática y muy decorativa. Sensible al frío.",
-        "id": 44
+        "id": 44,
+        "image_path": "images/albahacas_genovesa_morada.jpg"
     },
     {
         "name": "Tomillo",
@@ -770,7 +790,8 @@
         "removal_type": "Almácigo",
         "stock": 50,
         "observations": "Perenne. Requiere buen drenaje, no tolera encharcamiento.",
-        "id": 45
+        "id": 45,
+        "image_path": "images/aromáticas_orégano_tomillo_mejorana.jpg"
     },
     {
         "name": "Cilantro",
@@ -787,7 +808,8 @@
         "removal_type": "Directa",
         "stock": 20,
         "observations": "Tiende a espigar rápido con calor. Sembrar escalonado.",
-        "id": 46
+        "id": 46,
+        "image_path": "images/aromáticas_cilantro_eneldo_anís_verde.jpg"
     },
     {
         "name": "Perejil liso",
@@ -804,7 +826,8 @@
         "removal_type": "Directa (remojar semillas 24h)",
         "stock": 30,
         "observations": "Cosecha continua de hojas externas.",
-        "id": 47
+        "id": 47,
+        "image_path": "images/aromáticas_perejil_liso_rizado.jpg"
     },
     {
         "name": "Perejil rizado",
@@ -821,7 +844,8 @@
         "removal_type": "Directa (remojar semillas 24h)",
         "stock": 20,
         "observations": "Más decorativo y textura rizada.",
-        "id": 48
+        "id": 48,
+        "image_path": "images/aromáticas_perejil_liso_rizado.jpg"
     },
     {
         "name": "Melisa",
@@ -838,7 +862,8 @@
         "removal_type": "Almácigo",
         "stock": 30,
         "observations": "Perenne. Crece rápido y tiene un rico aroma a limón.",
-        "id": 49
+        "id": 49,
+        "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
     },
     {
         "name": "Anís verde",
@@ -852,7 +877,8 @@
         "removal_type": "Directa",
         "stock": 15,
         "observations": "Semillas aromáticas usadas en repostería.",
-        "id": 50
+        "id": 50,
+        "image_path": "images/aromáticas_cilantro_eneldo_anís_verde.jpg"
     },
     {
         "name": "Fenogreco",
@@ -868,7 +894,8 @@
         "removal_type": "Directa",
         "stock": 15,
         "observations": "Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles.",
-        "id": 51
+        "id": 51,
+        "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
     },
     {
         "name": "Manzanilla",
@@ -884,7 +911,8 @@
         "removal_type": "Directa o almácigo superficial",
         "stock": 50,
         "observations": "Flores medicinales. Fácil resiembra.",
-        "id": 52
+        "id": 52,
+        "image_path": "images/medicinales_melisa_manzanilla_fenogreco.jpg"
     },
     {
         "name": "Eneldo",
@@ -900,7 +928,8 @@
         "removal_type": "Directa",
         "stock": 20,
         "observations": "Atrae polinizadores. No trasplantar, raíz pivotante.",
-        "id": 53
+        "id": 53,
+        "image_path": "images/aromáticas_cilantro_eneldo_anís_verde.jpg"
     },
     {
         "name": "Ciboulette",
@@ -918,7 +947,8 @@
         "removal_type": "Directa o almácigo",
         "stock": 15,
         "observations": "Cosecha cortando a nivel del suelo. Perenne.",
-        "id": 54
+        "id": 54,
+        "image_path": "images/especiales_ciboulette_mostaza_blanca.png"
     },
     {
         "name": "Mejorana",
@@ -935,7 +965,8 @@
         "removal_type": "Almácigo",
         "stock": 40,
         "observations": "Perenne. Aroma suave y dulce, similar al orégano.",
-        "id": 55
+        "id": 55,
+        "image_path": "images/aromáticas_orégano_tomillo_mejorana.jpg"
     },
     {
         "name": "Mostaza",
@@ -951,7 +982,8 @@
         "removal_type": "Directa",
         "stock": 50,
         "observations": "Hojas picantes para ensalada y semillas para condimento.",
-        "id": 56
+        "id": 56,
+        "image_path": "images/especiales_ciboulette_mostaza_blanca.png"
     },
     {
         "name": "Lechuga romana verde",
@@ -969,7 +1001,8 @@
         "removal_type": "Almácigo o directa",
         "stock": 80,
         "observations": "Actualizado desde lista OCR.",
-        "id": 57
+        "id": 57,
+        "image_path": "images/lechuga_crespa.jpg"
     },
     {
         "name": "Lechuga mantecosa",
@@ -987,7 +1020,8 @@
         "removal_type": "Almácigo o directa",
         "stock": 80,
         "observations": "Actualizado desde lista OCR.",
-        "id": 58
+        "id": 58,
+        "image_path": "images/lechuga_crespa.jpg"
     },
     {
         "name": "Melón",
@@ -1002,7 +1036,8 @@
         "removal_type": "Directa (a golpes)",
         "stock": 15,
         "observations": "Actualizado desde lista OCR.",
-        "id": 59
+        "id": 59,
+        "image_path": "images/melón_sandía_crimson_sweet.jpg"
     },
     {
         "name": "Repollo colorado",
@@ -1018,7 +1053,8 @@
         "removal_type": "Almácigo",
         "stock": 30,
         "observations": "Actualizado desde lista OCR.",
-        "id": 60
+        "id": 60,
+        "image_path": "images/repollos_blanco_colorado.jpg"
     },
     {
         "name": "Lechuga morada",
@@ -1036,7 +1072,8 @@
         "removal_type": "Almácigo o directa",
         "stock": 80,
         "observations": "Actualizado desde lista OCR.",
-        "id": 61
+        "id": 61,
+        "image_path": "images/lechuga_crespa.jpg"
     },
     {
         "name": "Repollo blanco",
@@ -1052,7 +1089,8 @@
         "removal_type": "Almácigo",
         "stock": 30,
         "observations": "Actualizado desde lista OCR.",
-        "id": 62
+        "id": 62,
+        "image_path": "images/repollos_blanco_colorado.jpg"
     },
     {
         "name": "Sandía",
@@ -1067,7 +1105,8 @@
         "removal_type": "Directa",
         "stock": 15,
         "observations": "Actualizado desde lista OCR.",
-        "id": 63
+        "id": 63,
+        "image_path": "images/melón_sandía_crimson_sweet.jpg"
     },
     {
         "name": "Zucchini",
@@ -1082,7 +1121,8 @@
         "removal_type": "Directa",
         "stock": 5,
         "observations": "Actualizado desde lista OCR.",
-        "id": 64
+        "id": 64,
+        "image_path": "images/zucchini.jpg"
     },
     {
         "name": "Zapallo anco",
@@ -1097,7 +1137,8 @@
         "removal_type": "Directa",
         "stock": 5,
         "observations": "Actualizado desde lista OCR.",
-        "id": 65
+        "id": 65,
+        "image_path": "images/zucchini.jpg"
     },
     {
         "name": "Mix zapallos y calabacines",
@@ -1112,7 +1153,8 @@
         "removal_type": "Directa",
         "stock": 30,
         "observations": "Actualizado desde lista.",
-        "id": 66
+        "id": 66,
+        "image_path": "images/zucchini.jpg"
     },
     {
         "name": "Zapallito de tronco",
@@ -1127,6 +1169,7 @@
         "removal_type": "Directa",
         "stock": 15,
         "observations": "Actualizado desde lista.",
-        "id": 67
+        "id": 67,
+        "image_path": "images/zucchini.jpg"
     }
 ]

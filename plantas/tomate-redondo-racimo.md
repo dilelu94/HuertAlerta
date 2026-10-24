@@ -1,5 +1,7 @@
 # Tomate redondo racimo
 
+![Tomate redondo racimo](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

@@ -1,5 +1,7 @@
 # Perejil liso
 
+![Perejil liso](../images/aromáticas_perejil_liso_rizado.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Apiaceae

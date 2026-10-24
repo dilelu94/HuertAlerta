@@ -1,5 +1,7 @@
 # Tomate cherry Cereza Sueco
 
+![Tomate cherry Cereza Sueco](../images/tomate.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Solanaceae

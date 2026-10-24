@@ -1,5 +1,7 @@
 # Espinaca Frutilla (Blitum capitatum)
 
+![Espinaca Frutilla (Blitum capitatum)](../images/espinaca.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Amaranthaceae

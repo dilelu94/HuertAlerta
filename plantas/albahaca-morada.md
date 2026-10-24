@@ -1,5 +1,7 @@
 # Albahaca morada
 
+![Albahaca morada](../images/albahacas_genovesa_morada.jpg)
+
 ### 📋 Ficha Técnica de Cultivo
 
 * 🌿 **Familia Botánica:** Lamiaceae
