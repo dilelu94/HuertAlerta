@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Variedad erecta y crujiente. Tolera mejor el calor que otras lechugas. Cosechar hoja por hoja desde el exterior para extender la cosecha varias semanas.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

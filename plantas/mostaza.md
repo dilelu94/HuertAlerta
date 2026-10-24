@@ -1,6 +1,6 @@
 # Mostaza
 
-![Mostaza](../images/especiales_ciboulette_mostaza_blanca.png)
+![Mostaza](../images/mostaza_blanca.jpg)
 
 ### 📋 Ficha Técnica de Cultivo
 

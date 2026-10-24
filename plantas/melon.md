@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Planta rastrera que adora el pleno sol. Reducir el riego en las últimas semanas de maduración para concentrar los azúcares y evitar que el fruto se raje.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Hojas onduladas con pigmentación rojiza/morada. Muy rica en antocianinas; cosechar hojas exteriores o la planta entera a los 60 días.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Guía rastrera de gran vigor. Dejar secar en la planta hasta que el pedúnculo esté leñoso y la cáscara dura; cura excelente para meses de almacenamiento.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

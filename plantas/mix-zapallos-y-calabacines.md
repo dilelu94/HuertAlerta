@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista.
+> Mezcla de variedades rastreras y de mata. Plantar a pleno sol con buen compost; cosechar escalonadamente según el tamaño y tipo de fruto.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

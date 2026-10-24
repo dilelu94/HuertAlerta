@@ -7,11 +7,14 @@
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f0f4f1; color: #2d3748; margin: 0; padding: 16px; }
     .container { max-width: 680px; margin: 0 auto; }
-    header { text-align: center; margin-bottom: 24px; }
+    header { text-align: center; margin-bottom: 20px; }
     h1 { color: #2e7d32; margin-bottom: 6px; }
-    p.sub { color: #666; margin-top: 0; }
+    p.sub { color: #666; margin-top: 0; font-size: 0.95em; }
+    .filter-bar { display: flex; justify-content: center; gap: 8px; margin-bottom: 20px; }
+    .filter-btn { background: #e2e8f0; border: none; padding: 8px 16px; border-radius: 20px; font-weight: 600; cursor: pointer; color: #4a5568; transition: all 0.2s; }
+    .filter-btn.active { background: #2e7d32; color: white; }
     .card { background: white; border-radius: 14px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); scroll-margin-top: 20px; border: 1px solid #e2e8f0; }
-    .card h2 { margin-top: 0; color: #1b5e20; display: flex; justify-content: space-between; align-items: center; font-size: 1.3em; }
+    .card h2 { margin-top: 0; color: #1b5e20; display: flex; justify-content: space-between; align-items: center; font-size: 1.25em; }
     .card img { width: 100%; border-radius: 10px; max-height: 420px; object-fit: cover; display: block; margin: 14px 0; background: #e8ede9; }
     .tag { background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 20px; font-size: 0.65em; font-weight: 600; text-transform: uppercase; }
     ul { list-style: none; padding: 0; margin: 12px 0; }
@@ -19,15 +22,37 @@
     li:last-child { border-bottom: none; }
     blockquote { background: #f1f8e9; border-left: 4px solid #4caf50; margin: 14px 0 0 0; padding: 12px 14px; border-radius: 0 8px 8px 0; font-size: 0.92em; color: #33691e; }
   </style>
+  <script>
+    function filterCards(type) {
+      const currentMonth = new Date().getMonth() + 1;
+      const cards = document.querySelectorAll('.card');
+      const buttons = document.querySelectorAll('.filter-btn');
+      buttons.forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+
+      cards.forEach(card => {
+        if (type === 'all') {
+          card.style.display = 'block';
+        } else if (type === 'season') {
+          const months = JSON.parse(card.getAttribute('data-months') || '[]');
+          card.style.display = months.includes(currentMonth) ? 'block' : 'none';
+        }
+      });
+    }
+  </script>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>🌱 HuertAlerta</h1>
-      <p class="sub">Guía visual de cultivo e inventario de semillas</p>
+      <p class="sub">Catálogo visual de cultivo e inventario familiar</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" onclick="filterCards('all')">Ver Todas (67)</button>
+        <button class="filter-btn" onclick="filterCards('season')">Solo de Temporada</button>
+      </div>
     </header>
 
-    <div class="card" id="p1">
+    <div class="card" id="p1" data-months='[2, 3, 4, 5, 6, 7, 8, 9, 10]'>
       <h2>Rúcula <span class="tag">Brassicaceae</span></h2>
       <img src="images/rúcula.png" alt="Rúcula">
       <ul>
@@ -36,10 +61,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o al florecer</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Gran cantidad disponible; ideal para siembras densas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Gran cantidad disponible; ideal para siembras densas.</blockquote>
     </div>
 
-    <div class="card" id="p2">
+    <div class="card" id="p2" data-months='[3, 4, 5, 6, 7, 8]'>
       <h2>Espinaca <span class="tag">Amaranthaceae</span></h2>
       <img src="images/espinaca.jpg" alt="Espinaca">
       <ul>
@@ -48,10 +73,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o al florecer</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Prefiere el frío; sembrar en otoño para mejores resultados.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Prefiere el frío; sembrar en otoño para mejores resultados.</blockquote>
     </div>
 
-    <div class="card" id="p3">
+    <div class="card" id="p3" data-months='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]'>
       <h2>Acelga <span class="tag">Amaranthaceae</span></h2>
       <img src="images/acelga.jpg" alt="Acelga">
       <ul>
@@ -60,10 +85,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo (Corte de hojas)</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Cosechar las hojas externas para que siga produciendo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Cosechar las hojas externas para que siga produciendo.</blockquote>
     </div>
 
-    <div class="card" id="p4">
+    <div class="card" id="p4" data-months='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]'>
       <h2>Achicoria Radicheta <span class="tag">Asteraceae</span></h2>
       <img src="images/achicoria_radicheta.jpg" alt="Achicoria Radicheta">
       <ul>
@@ -72,10 +97,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Muy rústica; rebrota con fuerza después de cada corte.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Muy rústica; rebrota con fuerza después de cada corte.</blockquote>
     </div>
 
-    <div class="card" id="p5">
+    <div class="card" id="p5" data-months='[2, 3, 4, 5, 6, 7, 8]'>
       <h2>Escarola <span class="tag">Asteraceae</span></h2>
       <img src="images/achicoria_radicheta.jpg" alt="Escarola">
       <ul>
@@ -84,10 +109,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Ideal para ensaladas de invierno; soporta bien el frío.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Ideal para ensaladas de invierno; soporta bien el frío.</blockquote>
     </div>
 
-    <div class="card" id="p6">
+    <div class="card" id="p6" data-months='[1, 2, 3, 4, 8, 9, 10]'>
       <h2>Apio <span class="tag">Apiaceae</span></h2>
       <img src="images/apio.jpg" alt="Apio">
       <ul>
@@ -96,10 +121,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Requiere suelo muy húmedo y rico en nutrientes.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Requiere suelo muy húmedo y rico en nutrientes.</blockquote>
     </div>
 
-    <div class="card" id="p7">
+    <div class="card" id="p7" data-months='[4, 5, 6, 7, 8]'>
       <h2>Arveja <span class="tag">Fabaceae</span></h2>
       <img src="images/arveja.jpg" alt="Arveja">
       <ul>
@@ -108,10 +133,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Abril, Mayo, Junio, Julio, Agosto</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Plantar con tutores para que trepen.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Plantar con tutores para que trepen.</blockquote>
     </div>
 
-    <div class="card" id="p8">
+    <div class="card" id="p8" data-months='[2, 3, 4, 5]'>
       <h2>Brócoli <span class="tag">Brassicaceae</span></h2>
       <img src="images/brócoli.jpg" alt="Brócoli">
       <ul>
@@ -120,10 +145,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Controlar las orugas de la col frecuentemente.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Controlar las orugas de la col frecuentemente.</blockquote>
     </div>
 
-    <div class="card" id="p9">
+    <div class="card" id="p9" data-months='[2, 3, 4, 5]'>
       <h2>Coliflor <span class="tag">Brassicaceae</span></h2>
       <img src="images/coliflor.jpg" alt="Coliflor">
       <ul>
@@ -132,10 +157,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Tapar la pella con sus propias hojas para mantenerla blanca.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Tapar la pella con sus propias hojas para mantenerla blanca.</blockquote>
     </div>
 
-    <div class="card" id="p10">
+    <div class="card" id="p10" data-months='[2, 3, 4, 5, 6, 7, 8, 9, 10]'>
       <h2>Cebolla de Verdeo <span class="tag">Amaryllidaceae</span></h2>
       <img src="images/cebolla_de_verdeo.jpg" alt="Cebolla de Verdeo">
       <ul>
@@ -144,10 +169,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Continuo o desplante</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Se puede usar el bulbo y la hoja.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Se puede usar el bulbo y la hoja.</blockquote>
     </div>
 
-    <div class="card" id="p11">
+    <div class="card" id="p11" data-months='[2, 3, 4, 5]'>
       <h2>Cebolla Morada / Valenciana <span class="tag">Amaryllidaceae</span></h2>
       <img src="images/cebolla_morada.png" alt="Cebolla Morada / Valenciana">
       <ul>
@@ -156,10 +181,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Cosechar cuando el cuello de la planta se dobla solo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Cosechar cuando el cuello de la planta se dobla solo.</blockquote>
     </div>
 
-    <div class="card" id="p12">
+    <div class="card" id="p12" data-months='[10, 11, 12, 1]'>
       <h2>Chaucha <span class="tag">Fabaceae</span></h2>
       <img src="images/chaucha.jpg" alt="Chaucha">
       <ul>
@@ -168,10 +193,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Siembra directa cuando ya no hay riesgo de heladas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Siembra directa cuando ya no hay riesgo de heladas.</blockquote>
     </div>
 
-    <div class="card" id="p13">
+    <div class="card" id="p13" data-months='[2, 3, 4, 8, 9]'>
       <h2>Hinojo <span class="tag">Apiaceae</span></h2>
       <img src="images/hinojo.jpg" alt="Hinojo">
       <ul>
@@ -180,10 +205,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Evitar plantar cerca de tomates o legumbres.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Evitar plantar cerca de tomates o legumbres.</blockquote>
     </div>
 
-    <div class="card" id="p14">
+    <div class="card" id="p14" data-months='[10, 11, 12, 1]'>
       <h2>Maíz Dulce <span class="tag">Poaceae</span></h2>
       <img src="images/maíz_dulce.jpg" alt="Maíz Dulce">
       <ul>
@@ -192,10 +217,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Plantar en bloques para asegurar una buena polinización.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Plantar en bloques para asegurar una buena polinización.</blockquote>
     </div>
 
-    <div class="card" id="p15">
+    <div class="card" id="p15" data-months='[10, 11, 12]'>
       <h2>Melón / Sandía (Crimson Sweet) <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/melón_sandía_crimson_sweet.jpg" alt="Melón / Sandía (Crimson Sweet)">
       <ul>
@@ -204,10 +229,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por temporada</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Requieren mucho espacio para sus guías y sol pleno.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Requieren mucho espacio para sus guías y sol pleno.</blockquote>
     </div>
 
-    <div class="card" id="p16">
+    <div class="card" id="p16" data-months='[10, 11, 12]'>
       <h2>Pepino <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/pepino.jpg" alt="Pepino">
       <ul>
@@ -216,10 +241,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Se puede cultivar en forma rastrera o trepadora.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Se puede cultivar en forma rastrera o trepadora.</blockquote>
     </div>
 
-    <div class="card" id="p17">
+    <div class="card" id="p17" data-months='[2, 3, 4, 5, 8, 9, 10]'>
       <h2>Puerro <span class="tag">Amaryllidaceae</span></h2>
       <img src="images/puerro.jpg" alt="Puerro">
       <ul>
@@ -228,10 +253,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Aporcar (cubrir con tierra) la base para blanquear el tallo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Aporcar (cubrir con tierra) la base para blanquear el tallo.</blockquote>
     </div>
 
-    <div class="card" id="p18">
+    <div class="card" id="p18" data-months='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]'>
       <h2>Rabanito <span class="tag">Brassicaceae</span></h2>
       <img src="images/rabanito.jpg" alt="Rabanito">
       <ul>
@@ -240,10 +265,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> La hortaliza más rápida; sembrar poco pero seguido.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> La hortaliza más rápida; sembrar poco pero seguido.</blockquote>
     </div>
 
-    <div class="card" id="p19">
+    <div class="card" id="p19" data-months='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]'>
       <h2>Remolacha <span class="tag">Amaranthaceae</span></h2>
       <img src="images/remolacha.jpg" alt="Remolacha">
       <ul>
@@ -252,10 +277,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Las hojas jóvenes también son comestibles en ensalada.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Las hojas jóvenes también son comestibles en ensalada.</blockquote>
     </div>
 
-    <div class="card" id="p20">
+    <div class="card" id="p20" data-months='[2, 3, 4, 5]'>
       <h2>Repollos (Blanco / Colorado) <span class="tag">Brassicaceae</span></h2>
       <img src="images/repollos_blanco_colorado.jpg" alt="Repollos (Blanco / Colorado)">
       <ul>
@@ -264,10 +289,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Necesita un suelo firme y buen aporte de nitrógeno.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Necesita un suelo firme y buen aporte de nitrógeno.</blockquote>
     </div>
 
-    <div class="card" id="p21">
+    <div class="card" id="p21" data-months='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]'>
       <h2>Zanahoria <span class="tag">Apiaceae</span></h2>
       <img src="images/zanahoria.jpg" alt="Zanahoria">
       <ul>
@@ -276,10 +301,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por cosecha</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Mantener la humedad constante durante la germinación.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Mantener la humedad constante durante la germinación.</blockquote>
     </div>
 
-    <div class="card" id="p22">
+    <div class="card" id="p22" data-months='[10, 11, 12, 1]'>
       <h2>Zapallos (Anco / Plomo / Zucchini / Mix) <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/zapallos_anco_plomo_zucchini_mix.jpg" alt="Zapallos (Anco / Plomo / Zucchini / Mix)">
       <ul>
@@ -288,10 +313,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Octubre, Noviembre, Diciembre, Enero</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Desplante por temporada</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Incluye mix de zapallos (30 semillas extra).</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Incluye mix de zapallos (30 semillas extra).</blockquote>
     </div>
 
-    <div class="card" id="p23">
+    <div class="card" id="p23" data-months='[5, 6, 7]'>
       <h2>Frutos (Frutilla / Arándano / Frambuesa / Uva) <span class="tag">Rosaceae/Ericaceae/Vitaceae</span></h2>
       <img src="images/frutos_rojos_vid_frutilla_arándano_frambuesa_uva.jpg" alt="Frutos (Frutilla / Arándano / Frambuesa / Uva)">
       <ul>
@@ -300,10 +325,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Mayo, Junio, Julio</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Perenne</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Plantas perennes (stock de seguridad 50 c/u).</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Plantas perennes (stock de seguridad 50 c/u).</blockquote>
     </div>
 
-    <div class="card" id="p24">
+    <div class="card" id="p24" data-months='[3, 4, 5, 6]'>
       <h2>Arvejilla (Flor) <span class="tag">Fabaceae</span></h2>
       <img src="images/arvejilla.png" alt="Arvejilla (Flor)">
       <ul>
@@ -312,10 +337,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Al florecer</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Trepadora de invierno muy perfumada y decorativa.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Trepadora de invierno muy perfumada y decorativa.</blockquote>
     </div>
 
-    <div class="card" id="p25">
+    <div class="card" id="p25" data-months='[3, 4, 5, 8, 9]'>
       <h2>Espinaca Frutilla (Blitum capitatum) <span class="tag">Amaranthaceae</span></h2>
       <img src="images/espinaca.jpg" alt="Espinaca Frutilla (Blitum capitatum)">
       <ul>
@@ -324,10 +349,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Siembra directa superficial (semilla muy fina) o almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Se aprovechan hojas (como espinaca) y pequeños frutos rojos. Requiere clima fresco, se espiga con el calor intenso del verano.</blockquote>
     </div>
 
-    <div class="card" id="p26">
+    <div class="card" id="p26" data-months='[3, 4, 5, 6, 7, 8]'>
       <h2>Habas <span class="tag">Fabaceae (Leguminosas)</span></h2>
       <img src="images/arveja.jpg" alt="Habas">
       <ul>
@@ -336,10 +361,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Junio, Julio, Agosto</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Siembra directa (a 3-5 cm de profundidad)</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Tolera muy bien el frío y aporta nitrógeno a la tierra. Dejar 15-20 cm de separación entre plantas.</blockquote>
     </div>
 
-    <div class="card" id="p27">
+    <div class="card" id="p27" data-months='[8, 9, 10, 11]'>
       <h2>Tomate cherry Mini Kumato <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate cherry Mini Kumato">
       <ul>
@@ -348,10 +373,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Variedad oscura, muy dulce.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Variedad oscura, muy dulce.</blockquote>
     </div>
 
-    <div class="card" id="p28">
+    <div class="card" id="p28" data-months='[8, 9, 10, 11]'>
       <h2>Tomate cherry Minibell Azul <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate cherry Minibell Azul">
       <ul>
@@ -360,10 +385,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Requiere sol directo para desarrollar el tono azul/violáceo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Requiere sol directo para desarrollar el tono azul/violáceo.</blockquote>
     </div>
 
-    <div class="card" id="p29">
+    <div class="card" id="p29" data-months='[8, 9, 10, 11]'>
       <h2>Tomate cherry Cereza Sueco <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate cherry Cereza Sueco">
       <ul>
@@ -372,10 +397,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Muy productivo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Muy productivo.</blockquote>
     </div>
 
-    <div class="card" id="p30">
+    <div class="card" id="p30" data-months='[8, 9, 10, 11]'>
       <h2>Tomate cherry Dátil Amarillo <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate cherry Dátil Amarillo">
       <ul>
@@ -384,10 +409,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Sabor muy dulce y forma alargada.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Sabor muy dulce y forma alargada.</blockquote>
     </div>
 
-    <div class="card" id="p31">
+    <div class="card" id="p31" data-months='[8, 9, 10, 11]'>
       <h2>Tomate cherry Perita Naranja <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate cherry Perita Naranja">
       <ul>
@@ -396,10 +421,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Color vibrante y pulpa firme.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Color vibrante y pulpa firme.</blockquote>
     </div>
 
-    <div class="card" id="p32">
+    <div class="card" id="p32" data-months='[8, 9, 10, 11]'>
       <h2>Tomate redondo racimo <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate redondo racimo">
       <ul>
@@ -408,10 +433,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Ideal para ensaladas. Requiere buen tutorado.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Ideal para ensaladas. Requiere buen tutorado.</blockquote>
     </div>
 
-    <div class="card" id="p33">
+    <div class="card" id="p33" data-months='[8, 9, 10, 11]'>
       <h2>Tomate perita (Río Grande) <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Tomate perita (Río Grande)">
       <ul>
@@ -420,10 +445,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Excelente para salsas y conservas. Determinada (no requiere desbrote estricto).</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Excelente para salsas y conservas. Determinada (no requiere desbrote estricto).</blockquote>
     </div>
 
-    <div class="card" id="p34">
+    <div class="card" id="p34" data-months='[8, 9, 10, 11]'>
       <h2>Mix Tomates reliquia <span class="tag">Solanaceae</span></h2>
       <img src="images/tomate.jpg" alt="Mix Tomates reliquia">
       <ul>
@@ -432,10 +457,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Variedades antiguas con gran sabor y diferentes colores/formas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Variedades antiguas con gran sabor y diferentes colores/formas.</blockquote>
     </div>
 
-    <div class="card" id="p35">
+    <div class="card" id="p35" data-months='[8, 9, 10, 11]'>
       <h2>Morrón rojo (California) <span class="tag">Solanaceae</span></h2>
       <img src="images/morron_rojo.png" alt="Morrón rojo (California)">
       <ul>
@@ -444,10 +469,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Pimiento dulce clásico, grueso y carnoso.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Pimiento dulce clásico, grueso y carnoso.</blockquote>
     </div>
 
-    <div class="card" id="p36">
+    <div class="card" id="p36" data-months='[8, 9, 10, 11]'>
       <h2>Mix Ajíes picantes <span class="tag">Solanaceae</span></h2>
       <img src="images/morron_rojo.png" alt="Mix Ajíes picantes">
       <ul>
@@ -456,10 +481,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Variedades picantes variadas. Manejar semillas con cuidado.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Variedades picantes variadas. Manejar semillas con cuidado.</blockquote>
     </div>
 
-    <div class="card" id="p37">
+    <div class="card" id="p37" data-months='[8, 9, 10, 11]'>
       <h2>Berenjena (Florida Market) <span class="tag">Solanaceae</span></h2>
       <img src="images/berenjena.jpg" alt="Berenjena (Florida Market)">
       <ul>
@@ -468,10 +493,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Frutos grandes y oscuros. Sensible a heladas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Frutos grandes y oscuros. Sensible a heladas.</blockquote>
     </div>
 
-    <div class="card" id="p38">
+    <div class="card" id="p38" data-months='[2, 3, 4, 5, 8, 9]'>
       <h2>Escarola (hoja fina) <span class="tag">Asteraceae</span></h2>
       <img src="images/achicoria_radicheta.jpg" alt="Escarola (hoja fina)">
       <ul>
@@ -480,10 +505,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Soporta bien el frío. Atar las hojas unos días antes de cosechar para blanquear el centro y reducir amargor.</blockquote>
     </div>
 
-    <div class="card" id="p39">
+    <div class="card" id="p39" data-months='[8, 9, 10, 11]'>
       <h2>Copete gigante <span class="tag">Asteraceae</span></h2>
       <img src="images/flores_caléndula_copete_alhelí.jpg" alt="Copete gigante">
       <ul>
@@ -492,10 +517,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Excelente flor para la huerta, repele nemátodos y atrae polinizadores.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Excelente flor para la huerta, repele nemátodos y atrae polinizadores.</blockquote>
     </div>
 
-    <div class="card" id="p40">
+    <div class="card" id="p40" data-months='[3, 4, 5, 8, 9, 10]'>
       <h2>Alelí de Mahón <span class="tag">Brassicaceae</span></h2>
       <img src="images/flores_caléndula_copete_alhelí.jpg" alt="Alelí de Mahón">
       <ul>
@@ -504,10 +529,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Flor aromática de colores intensos.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Flor aromática de colores intensos.</blockquote>
     </div>
 
-    <div class="card" id="p41">
+    <div class="card" id="p41" data-months='[3, 4, 5, 8, 9, 10]'>
       <h2>Caléndula <span class="tag">Asteraceae</span></h2>
       <img src="images/flores_caléndula_copete_alhelí.jpg" alt="Caléndula">
       <ul>
@@ -516,10 +541,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Flor comestible y medicinal. Atrae polinizadores y repele pulgones.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Flor comestible y medicinal. Atrae polinizadores y repele pulgones.</blockquote>
     </div>
 
-    <div class="card" id="p42">
+    <div class="card" id="p42" data-months='[8, 9, 10, 11, 2, 3, 4]'>
       <h2>Orégano <span class="tag">Lamiaceae</span></h2>
       <img src="images/aromáticas_orégano_tomillo_mejorana.jpg" alt="Orégano">
       <ul>
@@ -528,10 +553,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Febrero, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o división</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Perenne. Muy rústico y fácil de cultivar.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Perenne. Muy rústico y fácil de cultivar.</blockquote>
     </div>
 
-    <div class="card" id="p43">
+    <div class="card" id="p43" data-months='[8, 9, 10, 11]'>
       <h2>Albahaca genovesa <span class="tag">Lamiaceae</span></h2>
       <img src="images/albahacas_genovesa_morada.jpg" alt="Albahaca genovesa">
       <ul>
@@ -540,10 +565,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Sensible a heladas. Pizcar flores para alargar ciclo.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Sensible a heladas. Pizcar flores para alargar ciclo.</blockquote>
     </div>
 
-    <div class="card" id="p44">
+    <div class="card" id="p44" data-months='[8, 9, 10, 11]'>
       <h2>Albahaca morada <span class="tag">Lamiaceae</span></h2>
       <img src="images/albahacas_genovesa_morada.jpg" alt="Albahaca morada">
       <ul>
@@ -552,10 +577,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Aromática y muy decorativa. Sensible al frío.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Aromática y muy decorativa. Sensible al frío.</blockquote>
     </div>
 
-    <div class="card" id="p45">
+    <div class="card" id="p45" data-months='[8, 9, 10, 11, 3, 4]'>
       <h2>Tomillo <span class="tag">Lamiaceae</span></h2>
       <img src="images/aromáticas_orégano_tomillo_mejorana.jpg" alt="Tomillo">
       <ul>
@@ -564,10 +589,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Perenne. Requiere buen drenaje, no tolera encharcamiento.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Perenne. Requiere buen drenaje, no tolera encharcamiento.</blockquote>
     </div>
 
-    <div class="card" id="p46">
+    <div class="card" id="p46" data-months='[8, 9, 10, 3, 4, 5]'>
       <h2>Cilantro <span class="tag">Apiaceae</span></h2>
       <img src="images/aromáticas_cilantro_eneldo_anís_verde.jpg" alt="Cilantro">
       <ul>
@@ -576,10 +601,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril, Mayo</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Tiende a espigar rápido con calor. Sembrar escalonado.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Tiende a espigar rápido con calor. Sembrar escalonado.</blockquote>
     </div>
 
-    <div class="card" id="p47">
+    <div class="card" id="p47" data-months='[8, 9, 10, 2, 3, 4]'>
       <h2>Perejil liso <span class="tag">Apiaceae</span></h2>
       <img src="images/aromáticas_perejil_liso_rizado.jpg" alt="Perejil liso">
       <ul>
@@ -588,10 +613,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Febrero, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (remojar semillas 24h)</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Cosecha continua de hojas externas.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Cosecha continua de hojas externas.</blockquote>
     </div>
 
-    <div class="card" id="p48">
+    <div class="card" id="p48" data-months='[8, 9, 10, 2, 3, 4]'>
       <h2>Perejil rizado <span class="tag">Apiaceae</span></h2>
       <img src="images/aromáticas_perejil_liso_rizado.jpg" alt="Perejil rizado">
       <ul>
@@ -600,10 +625,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Febrero, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (remojar semillas 24h)</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Más decorativo y textura rizada.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Más decorativo y textura rizada.</blockquote>
     </div>
 
-    <div class="card" id="p49">
+    <div class="card" id="p49" data-months='[8, 9, 10, 11, 3, 4]'>
       <h2>Melisa <span class="tag">Lamiaceae</span></h2>
       <img src="images/medicinales_melisa_manzanilla_fenogreco.jpg" alt="Melisa">
       <ul>
@@ -612,10 +637,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Perenne. Crece rápido y tiene un rico aroma a limón.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Perenne. Crece rápido y tiene un rico aroma a limón.</blockquote>
     </div>
 
-    <div class="card" id="p50">
+    <div class="card" id="p50" data-months='[8, 9, 10]'>
       <h2>Anís verde <span class="tag">Apiaceae</span></h2>
       <img src="images/aromáticas_cilantro_eneldo_anís_verde.jpg" alt="Anís verde">
       <ul>
@@ -624,10 +649,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Semillas aromáticas usadas en repostería.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Semillas aromáticas usadas en repostería.</blockquote>
     </div>
 
-    <div class="card" id="p51">
+    <div class="card" id="p51" data-months='[8, 9, 10, 3, 4]'>
       <h2>Fenogreco <span class="tag">Fabaceae</span></h2>
       <img src="images/medicinales_melisa_manzanilla_fenogreco.jpg" alt="Fenogreco">
       <ul>
@@ -636,10 +661,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Leguminosa, aporta nitrógeno al suelo. Hojas y semillas comestibles.</blockquote>
     </div>
 
-    <div class="card" id="p52">
+    <div class="card" id="p52" data-months='[3, 4, 5, 8, 9]'>
       <h2>Manzanilla <span class="tag">Asteraceae</span></h2>
       <img src="images/medicinales_melisa_manzanilla_fenogreco.jpg" alt="Manzanilla">
       <ul>
@@ -648,10 +673,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo superficial</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Flores medicinales. Fácil resiembra.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Flores medicinales. Fácil resiembra.</blockquote>
     </div>
 
-    <div class="card" id="p53">
+    <div class="card" id="p53" data-months='[8, 9, 10, 3, 4]'>
       <h2>Eneldo <span class="tag">Apiaceae</span></h2>
       <img src="images/aromáticas_cilantro_eneldo_anís_verde.jpg" alt="Eneldo">
       <ul>
@@ -660,10 +685,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Atrae polinizadores. No trasplantar, raíz pivotante.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Atrae polinizadores. No trasplantar, raíz pivotante.</blockquote>
     </div>
 
-    <div class="card" id="p54">
+    <div class="card" id="p54" data-months='[8, 9, 10, 11, 2, 3, 4]'>
       <h2>Ciboulette <span class="tag">Amaryllidaceae</span></h2>
       <img src="images/especiales_ciboulette_mostaza_blanca.png" alt="Ciboulette">
       <ul>
@@ -672,10 +697,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Febrero, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa o almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Cosecha cortando a nivel del suelo. Perenne.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Cosecha cortando a nivel del suelo. Perenne.</blockquote>
     </div>
 
-    <div class="card" id="p55">
+    <div class="card" id="p55" data-months='[8, 9, 10, 11, 3, 4]'>
       <h2>Mejorana <span class="tag">Lamiaceae</span></h2>
       <img src="images/aromáticas_orégano_tomillo_mejorana.jpg" alt="Mejorana">
       <ul>
@@ -684,22 +709,22 @@
         <li>📅 <strong>Meses de siembra:</strong> Agosto, Septiembre, Octubre, Noviembre, Marzo, Abril</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Perenne. Aroma suave y dulce, similar al orégano.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Perenne. Aroma suave y dulce, similar al orégano.</blockquote>
     </div>
 
-    <div class="card" id="p56">
+    <div class="card" id="p56" data-months='[3, 4, 5, 8, 9]'>
       <h2>Mostaza <span class="tag">Brassicaceae</span></h2>
-      <img src="images/especiales_ciboulette_mostaza_blanca.png" alt="Mostaza">
+      <img src="images/mostaza_blanca.jpg" alt="Mostaza">
       <ul>
         <li>🕒 <strong>Tiempo a la cosecha:</strong> ~40 días</li>
         <li>📦 <strong>Stock:</strong> 50 semillas / unidades</li>
         <li>📅 <strong>Meses de siembra:</strong> Marzo, Abril, Mayo, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Hojas picantes para ensalada y semillas para condimento.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Hojas picantes para ensalada y semillas para condimento.</blockquote>
     </div>
 
-    <div class="card" id="p57">
+    <div class="card" id="p57" data-months='[2, 3, 4, 5, 8, 9, 10]'>
       <h2>Lechuga romana verde <span class="tag">Asteraceae</span></h2>
       <img src="images/lechuga_crespa.jpg" alt="Lechuga romana verde">
       <ul>
@@ -708,10 +733,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Variedad erecta y crujiente. Tolera mejor el calor que otras lechugas. Cosechar hoja por hoja desde el exterior para extender la cosecha varias semanas.</blockquote>
     </div>
 
-    <div class="card" id="p58">
+    <div class="card" id="p58" data-months='[2, 3, 4, 5, 8, 9, 10]'>
       <h2>Lechuga mantecosa <span class="tag">Asteraceae</span></h2>
       <img src="images/lechuga_crespa.jpg" alt="Lechuga mantecosa">
       <ul>
@@ -720,10 +745,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Hojas suaves y mantecosas que forman cogollo tierno. Requiere riego constante y suelo fresco; cosechar temprano por la mañana para conservar máxima turgencia.</blockquote>
     </div>
 
-    <div class="card" id="p59">
+    <div class="card" id="p59" data-months='[9, 10, 11, 12]'>
       <h2>Melón <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/melón_sandía_crimson_sweet.jpg" alt="Melón">
       <ul>
@@ -732,10 +757,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa (a golpes)</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Planta rastrera que adora el pleno sol. Reducir el riego en las últimas semanas de maduración para concentrar los azúcares y evitar que el fruto se raje.</blockquote>
     </div>
 
-    <div class="card" id="p60">
+    <div class="card" id="p60" data-months='[2, 3, 4, 8, 9]'>
       <h2>Repollo colorado <span class="tag">Brassicaceae</span></h2>
       <img src="images/repollos_blanco_colorado.jpg" alt="Repollo colorado">
       <ul>
@@ -744,10 +769,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Cabeza densa morada rica en antioxidantes. Mantener la humedad pareja para evitar que la cabeza se parta; ideal cosechar cuando se sienta firme al tacto.</blockquote>
     </div>
 
-    <div class="card" id="p61">
+    <div class="card" id="p61" data-months='[2, 3, 4, 5, 8, 9, 10]'>
       <h2>Lechuga morada <span class="tag">Asteraceae</span></h2>
       <img src="images/lechuga_crespa.jpg" alt="Lechuga morada">
       <ul>
@@ -756,10 +781,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Mayo, Agosto, Septiembre, Octubre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo o directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Hojas onduladas con pigmentación rojiza/morada. Muy rica en antocianinas; cosechar hojas exteriores o la planta entera a los 60 días.</blockquote>
     </div>
 
-    <div class="card" id="p62">
+    <div class="card" id="p62" data-months='[2, 3, 4, 8, 9]'>
       <h2>Repollo blanco <span class="tag">Brassicaceae</span></h2>
       <img src="images/repollos_blanco_colorado.jpg" alt="Repollo blanco">
       <ul>
@@ -768,10 +793,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Febrero, Marzo, Abril, Agosto, Septiembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Almácigo</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Forma cabezas compactas y pesadas. Requiere tierra bien abonada y rica en nitrógeno; proteger de la oruga de la col con aromáticas compañeras.</blockquote>
     </div>
 
-    <div class="card" id="p63">
+    <div class="card" id="p63" data-months='[9, 10, 11, 12]'>
       <h2>Sandía <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/melón_sandía_crimson_sweet.jpg" alt="Sandía">
       <ul>
@@ -780,10 +805,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Exige espacio para expandirse (2 m² por planta) y calor constante. La señal de madurez es cuando el zarcillo más cercano al fruto se seca por completo.</blockquote>
     </div>
 
-    <div class="card" id="p64">
+    <div class="card" id="p64" data-months='[9, 10, 11, 12]'>
       <h2>Zucchini <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/zucchini.jpg" alt="Zucchini">
       <ul>
@@ -792,10 +817,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Crecimiento arbustivo muy productivo. Cosechar los calabacines tiernos (15-20 cm) cada 2 o 3 días para estimular la floración continua.</blockquote>
     </div>
 
-    <div class="card" id="p65">
+    <div class="card" id="p65" data-months='[9, 10, 11, 12]'>
       <h2>Zapallo anco <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/zucchini.jpg" alt="Zapallo anco">
       <ul>
@@ -804,10 +829,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista OCR.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Guía rastrera de gran vigor. Dejar secar en la planta hasta que el pedúnculo esté leñoso y la cáscara dura; cura excelente para meses de almacenamiento.</blockquote>
     </div>
 
-    <div class="card" id="p66">
+    <div class="card" id="p66" data-months='[9, 10, 11, 12]'>
       <h2>Mix zapallos y calabacines <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/zucchini.jpg" alt="Mix zapallos y calabacines">
       <ul>
@@ -816,10 +841,10 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Mezcla de variedades rastreras y de mata. Plantar a pleno sol con buen compost; cosechar escalonadamente según el tamaño y tipo de fruto.</blockquote>
     </div>
 
-    <div class="card" id="p67">
+    <div class="card" id="p67" data-months='[9, 10, 11, 12]'>
       <h2>Zapallito de tronco <span class="tag">Cucurbitaceae</span></h2>
       <img src="images/zucchini.jpg" alt="Zapallito de tronco">
       <ul>
@@ -828,7 +853,7 @@
         <li>📅 <strong>Meses de siembra:</strong> Septiembre, Octubre, Noviembre, Diciembre</li>
         <li>⚠️ <strong>Siembra / Desplante:</strong> Directa</li>
       </ul>
-      <blockquote>📝 <strong>Tips:</strong> Actualizado desde lista.</blockquote>
+      <blockquote>📝 <strong>Tips de cultivo:</strong> Planta compacta ideal para huertas familiares pequeñas. Cosechar los zapallitos verdes redondos mientras estén tiernos (tamaño pelota de tenis) para no agotar la planta.</blockquote>
     </div>
 
   </div>

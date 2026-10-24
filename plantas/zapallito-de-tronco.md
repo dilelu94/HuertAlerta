@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista.
+> Planta compacta ideal para huertas familiares pequeñas. Cosechar los zapallitos verdes redondos mientras estén tiernos (tamaño pelota de tenis) para no agotar la planta.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

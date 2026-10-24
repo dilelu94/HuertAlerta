@@ -983,7 +983,7 @@
         "stock": 50,
         "observations": "Hojas picantes para ensalada y semillas para condimento.",
         "id": 56,
-        "image_path": "images/especiales_ciboulette_mostaza_blanca.png"
+        "image_path": "images/mostaza_blanca.jpg"
     },
     {
         "name": "Lechuga romana verde",
@@ -1000,7 +1000,7 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Variedad erecta y crujiente. Tolera mejor el calor que otras lechugas. Cosechar hoja por hoja desde el exterior para extender la cosecha varias semanas.",
         "id": 57,
         "image_path": "images/lechuga_crespa.jpg"
     },
@@ -1019,7 +1019,7 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Hojas suaves y mantecosas que forman cogollo tierno. Requiere riego constante y suelo fresco; cosechar temprano por la mañana para conservar máxima turgencia.",
         "id": 58,
         "image_path": "images/lechuga_crespa.jpg"
     },
@@ -1035,7 +1035,7 @@
         "harvest_days": 100,
         "removal_type": "Directa (a golpes)",
         "stock": 15,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Planta rastrera que adora el pleno sol. Reducir el riego en las últimas semanas de maduración para concentrar los azúcares y evitar que el fruto se raje.",
         "id": 59,
         "image_path": "images/melón_sandía_crimson_sweet.jpg"
     },
@@ -1052,7 +1052,7 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Cabeza densa morada rica en antioxidantes. Mantener la humedad pareja para evitar que la cabeza se parta; ideal cosechar cuando se sienta firme al tacto.",
         "id": 60,
         "image_path": "images/repollos_blanco_colorado.jpg"
     },
@@ -1071,7 +1071,7 @@
         "harvest_days": 60,
         "removal_type": "Almácigo o directa",
         "stock": 80,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Hojas onduladas con pigmentación rojiza/morada. Muy rica en antocianinas; cosechar hojas exteriores o la planta entera a los 60 días.",
         "id": 61,
         "image_path": "images/lechuga_crespa.jpg"
     },
@@ -1088,7 +1088,7 @@
         "harvest_days": 100,
         "removal_type": "Almácigo",
         "stock": 30,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Forma cabezas compactas y pesadas. Requiere tierra bien abonada y rica en nitrógeno; proteger de la oruga de la col con aromáticas compañeras.",
         "id": 62,
         "image_path": "images/repollos_blanco_colorado.jpg"
     },
@@ -1104,7 +1104,7 @@
         "harvest_days": 100,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Exige espacio para expandirse (2 m² por planta) y calor constante. La señal de madurez es cuando el zarcillo más cercano al fruto se seca por completo.",
         "id": 63,
         "image_path": "images/melón_sandía_crimson_sweet.jpg"
     },
@@ -1120,7 +1120,7 @@
         "harvest_days": 60,
         "removal_type": "Directa",
         "stock": 5,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Crecimiento arbustivo muy productivo. Cosechar los calabacines tiernos (15-20 cm) cada 2 o 3 días para estimular la floración continua.",
         "id": 64,
         "image_path": "images/zucchini.jpg"
     },
@@ -1136,7 +1136,7 @@
         "harvest_days": 120,
         "removal_type": "Directa",
         "stock": 5,
-        "observations": "Actualizado desde lista OCR.",
+        "observations": "Guía rastrera de gran vigor. Dejar secar en la planta hasta que el pedúnculo esté leñoso y la cáscara dura; cura excelente para meses de almacenamiento.",
         "id": 65,
         "image_path": "images/zucchini.jpg"
     },
@@ -1152,7 +1152,7 @@
         "harvest_days": 120,
         "removal_type": "Directa",
         "stock": 30,
-        "observations": "Actualizado desde lista.",
+        "observations": "Mezcla de variedades rastreras y de mata. Plantar a pleno sol con buen compost; cosechar escalonadamente según el tamaño y tipo de fruto.",
         "id": 66,
         "image_path": "images/zucchini.jpg"
     },
@@ -1168,7 +1168,7 @@
         "harvest_days": 60,
         "removal_type": "Directa",
         "stock": 15,
-        "observations": "Actualizado desde lista.",
+        "observations": "Planta compacta ideal para huertas familiares pequeñas. Cosechar los zapallitos verdes redondos mientras estén tiernos (tamaño pelota de tenis) para no agotar la planta.",
         "id": 67,
         "image_path": "images/zucchini.jpg"
     }

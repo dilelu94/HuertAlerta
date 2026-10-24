@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Exige espacio para expandirse (2 m² por planta) y calor constante. La señal de madurez es cuando el zarcillo más cercano al fruto se seca por completo.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Cabeza densa morada rica en antioxidantes. Mantener la humedad pareja para evitar que la cabeza se parta; ideal cosechar cuando se sienta firme al tacto.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

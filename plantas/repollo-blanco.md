@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Forma cabezas compactas y pesadas. Requiere tierra bien abonada y rica en nitrógeno; proteger de la oruga de la col con aromáticas compañeras.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

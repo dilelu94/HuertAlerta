@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Crecimiento arbustivo muy productivo. Cosechar los calabacines tiernos (15-20 cm) cada 2 o 3 días para estimular la floración continua.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)

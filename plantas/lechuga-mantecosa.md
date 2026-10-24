@@ -13,6 +13,6 @@
 ---
 
 ### 📝 Observaciones y Tips
-> Actualizado desde lista OCR.
+> Hojas suaves y mantecosas que forman cogollo tierno. Requiere riego constante y suelo fresco; cosechar temprano por la mañana para conservar máxima turgencia.
 
 [⬅ Volver al listado en HuertAlerta](https://github.com/dilelu94/HuertAlerta)
